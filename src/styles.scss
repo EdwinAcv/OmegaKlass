@@ -3,6 +3,20 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(./assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Raleway, sans-serif !important;
+
+}
+
+.main-font {
+  font-family: Raleway, sans-serif !important;
+}
+
 // :root {
 //   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 //   line-height: 1.5;

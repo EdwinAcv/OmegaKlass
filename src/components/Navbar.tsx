@@ -10,8 +10,24 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { TextField } from '@mui/material';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+interface IPages {
+  page: string;
+
+}
+
+const pages: IPages[] = [
+  { page: 'explorar' },
+  { page: 'cursos' },
+  { page: 'profesores'},
+  { page: 'planes'},
+  { page: 'nosotros'}
+];
+
+
+
+
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 export function Navbar() {
@@ -38,7 +54,6 @@ export function Navbar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <i className="fa-solid fa-user" style={{marginRight: "5px"}} />
 
           <Typography
             variant="h6"
@@ -55,9 +70,10 @@ export function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            OmegaKlass
           </Typography>
 
+          {/* Moblile or table */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -88,14 +104,15 @@ export function Navbar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {pages.map(( {page} ) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography className='main-font' textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <i className="fa-solid fa-user" style={{marginRight: "5px"}} />
+
+
           <Typography
             variant="h5"
             noWrap
@@ -114,18 +131,32 @@ export function Navbar() {
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, fontFamily: 'Raleway !imortant' }}>
+            {pages.map(({page}) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                variant="contained" 
+                
+                sx={{ 
+                  my: 2, 
+                  color: 'white', 
+                  display: 'block',
+                  boxShadow: 'none',
+                }}
               >
                 {page}
               </Button>
             ))}
           </Box>
-
+          <Box sx={{ flexGrow: 1 }} >
+            <TextField
+              name="search"
+              placeholder="Search"
+              variant="outlined"
+              size="small"
+            />
+          </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
