@@ -8,9 +8,10 @@ export const MainLayout = ( { children }: { children: React.ReactNode } ) => {
        <AppTheme>
           <Navbar />
        </AppTheme>
-        <Container maxWidth="xl"> 
+
+        {/* <Container >  */}
             { children }
-        </Container>
+        {/* </Container> */}
       
     </>
   )

@@ -1,9 +1,12 @@
-import { Button } from "@mui/material"
+import { Button, Grid } from "@mui/material"
+import { Header } from "./components/Header"
 
 export const HomePage = () => {
   return (
-    <div>
-      <h1>This is the Home Page</h1>
+    <Grid>
+
+      <Header/>
+
       <Button
         color="secondary"
         variant="contained" 
@@ -11,7 +14,7 @@ export const HomePage = () => {
         Click Me
       </Button>
 
-    </div>
+    </Grid>
   )
 }
 

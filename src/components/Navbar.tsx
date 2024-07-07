@@ -10,7 +10,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import { TextField } from '@mui/material';
+import { capitalize, Grid, TextField } from '@mui/material';
 
 interface IPages {
   page: string;
@@ -52,7 +52,7 @@ export function Navbar() {
   return (
     
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Grid className='maxWidth' sx={{ width: '100%' }}>
         <Toolbar disableGutters>
 
           <Typography
@@ -143,6 +143,9 @@ export function Navbar() {
                   color: 'white', 
                   display: 'block',
                   boxShadow: 'none',
+                  fontWeight: 'bold',
+                  textTransform: 'capitalize'
+                  
                 }}
               >
                 {page}
@@ -187,7 +190,7 @@ export function Navbar() {
             </Menu>
           </Box>
         </Toolbar>
-      </Container>
+      </Grid>
     </AppBar>
   );
 }

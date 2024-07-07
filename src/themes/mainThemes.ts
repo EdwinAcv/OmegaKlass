@@ -14,9 +14,9 @@ export const mainThemes = createTheme({
 
     palette:{
         primary:{
-            main: '#294B9A',
-            dark: '#1c366b',
-            light: '#5387FF'
+            main: '#273B61',
+            dark: '#18233A',
+            light: '#B1C2E5'
 
         },
         secondary:{
