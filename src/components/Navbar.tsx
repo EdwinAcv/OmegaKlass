@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { capitalize, Grid, TextField } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 interface IPages {
   page: string;
@@ -28,9 +29,18 @@ const pages: IPages[] = [
 
 
 
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Perfil', 'Mis cursos', 'Dashboard', 'Cerrar session'];
 
 export function Navbar() {
+
+  const navigate = useNavigate();
+
+  const navergar = (ir: string) => {
+    navigate(`/${ir.toLowerCase()}`,{
+      replace: true
+    })
+  }
+
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
@@ -56,10 +66,11 @@ export function Navbar() {
         <Toolbar disableGutters>
 
           <Typography
+            onClick={()=> navergar('home')}
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -68,6 +79,7 @@ export function Navbar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              cursor: 'pointer',
             }}
           >
             OmegaKlass
@@ -135,7 +147,7 @@ export function Navbar() {
             {pages.map(({page}) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={() => navergar(page)}
                 variant="contained" 
                 
                 sx={{ 
@@ -154,6 +166,7 @@ export function Navbar() {
           </Box>
           <Box sx={{ flexGrow: 1 }} >
             <TextField
+              sx={{ bgcolor: 'white', borderRadius: '8px' }}
               name="search"
               placeholder="Search"
               variant="outlined"
@@ -163,7 +176,7 @@ export function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" sx={{ bgcolor: 'primary.light' }} src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
