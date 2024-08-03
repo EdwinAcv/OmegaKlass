@@ -7,6 +7,7 @@ import { CursosPage } from '../pages/cursos/CursosPage'
 import { AppTheme } from '../themes'
 import { NosotrosPage } from '../pages/nosotros/NosotrosPage'
 import { ProfesoresPage } from '../pages/profesores/ProfesoresPage'
+import { PerfilEstudiantePage } from '../pages/estudiante/PerfilEstudiantePage'
 
 export const Router = () => {
 
@@ -22,9 +23,9 @@ export const Router = () => {
 
               {/* felix */}
               <Route path="/cursos" element={<CursosPage />} />
-              <Route path="/cursosdetalle" element={<CursosPage />} />
-              <Route path="/estudiantecursos" element={<CursosPage />} />
-              <Route path="/perfilestudiante" element={<CursosPage />} />
+              <Route path="/cursos_detalle" element={<CursosPage />} />
+              {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
+              <Route path="/perfil_estudiante" element={<PerfilEstudiantePage />} />
 
 
               {/* George */}

@@ -29,14 +29,19 @@ const pages: IPages[] = [
 
 
 
-const settings = ['Perfil', 'Mis cursos', 'Dashboard', 'Cerrar session'];
+const settings = ['Perfil', 'Dashboard', 'Cerrar session'];
 
 export function Navbar() {
 
   const navigate = useNavigate();
 
   const navergar = (ir: string) => {
-    navigate(`/${ir.toLowerCase()}`,{
+    let page = ir.toLowerCase();
+    switch (page) {
+      case 'perfil': page = 'perfil_estudiante';
+    }
+
+    navigate(`/${page}`,{
       replace: true
     })
   }
@@ -196,7 +201,7 @@ export function Navbar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem key={setting} onClick={() => navergar(setting)}>
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
