@@ -14,7 +14,7 @@ export const Header = () => {
         <Grid container className="maxWidth" sx={{ display: 'flex', flexDirection: 'row' }}>
                 <Grid item xs={6} sx={{  height: 500, border: '1px solid black', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     {/* <img src="" alt="" /> */}
-                    <img src={gif} alt="Example GIF" style={{ width: '550px', height: '350px', borderRadius: '10px' }} />
+                    {/* <img src={gif} alt="Example GIF" style={{ width: '550px', height: '350px', borderRadius: '10px' }} /> */}
                 </Grid>
                 <Grid item xs={6}
                     sx={{

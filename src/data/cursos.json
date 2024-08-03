@@ -1,0 +1,142 @@
+[
+    {
+        "id_curso": 1,
+        "titulo": "Matemáticas Básicas",
+        "descripcion": "Curso introductorio para comprender los conceptos básicos de matemáticas.",
+        "maestro_id": 1,
+        "precio": 25
+    },
+    {
+        "id_curso": 2,
+        "titulo": "Física para Principiantes",
+        "descripcion": "Introducción a los fundamentos de la física para estudiantes novatos.",
+        "maestro_id": 1,
+        "precio": 20
+    },
+    {
+        "id_curso": 3,
+        "titulo": "Álgebra Avanzada",
+        "descripcion": "Curso avanzado de álgebra para estudiantes que quieren profundizar en el tema.",
+        "maestro_id": 1,
+        "precio": 30
+    },
+    {
+        "id_curso": 4,
+        "titulo": "Diseño Gráfico con Adobe Photoshop",
+        "descripcion": "Aprende a utilizar Adobe Photoshop para crear diseños gráficos impresionantes.",
+        "maestro_id": 2,
+        "precio": 25
+    },
+    {
+        "id_curso": 5,
+        "titulo": "Diseño de Logotipos",
+        "descripcion": "Curso especializado en la creación y diseño de logotipos profesionales.",
+        "maestro_id": 2,
+        "precio": 30
+    },
+    {
+        "id_curso": 6,
+        "titulo": "Química Orgánica",
+        "descripcion": "Explora los conceptos fundamentales de la química orgánica.",
+        "maestro_id": 3,
+        "precio": 20
+    },
+    {
+        "id_curso": 7,
+        "titulo": "Biología Celular",
+        "descripcion": "Comprende la estructura y función de las células en este curso detallado.",
+        "maestro_id": 3,
+        "precio": 25
+    },
+    {
+        "id_curso": 8,
+        "titulo": "Programación en Python",
+        "descripcion": "Aprende a programar en Python desde cero con este curso completo.",
+        "maestro_id": 4,
+        "precio": 30
+    },
+    {
+        "id_curso": 9,
+        "titulo": "Estructuras de Datos",
+        "descripcion": "Curso detallado sobre las diferentes estructuras de datos utilizadas en la programación.",
+        "maestro_id": 4,
+        "precio": 25
+    },
+    {
+        "id_curso": 10,
+        "titulo": "Bases de Datos SQL",
+        "descripcion": "Aprende a manejar bases de datos SQL y realizar consultas eficientes.",
+        "maestro_id": 4,
+        "precio": 30
+    },
+    {
+        "id_curso": 11,
+        "titulo": "Inglés para Principiantes",
+        "descripcion": "Curso básico de inglés para aquellos que están comenzando a aprender el idioma.",
+        "maestro_id": 5,
+        "precio": 20
+    },
+    {
+        "id_curso": 12,
+        "titulo": "Conversación en Inglés",
+        "descripcion": "Mejora tus habilidades de conversación en inglés con este curso práctico.",
+        "maestro_id": 5,
+        "precio": 25
+    },
+    {
+        "id_curso": 13,
+        "titulo": "Francés Básico",
+        "descripcion": "Curso introductorio para aprender los conceptos básicos del francés.",
+        "maestro_id": 5,
+        "precio": 15
+    },
+    {
+        "id_curso": 14,
+        "titulo": "Francés Intermedio",
+        "descripcion": "Curso intermedio de francés para aquellos que quieren mejorar su nivel.",
+        "maestro_id": 5,
+        "precio": 20
+    },
+    {
+        "id_curso": 15,
+        "titulo": "Física Avanzada",
+        "descripcion": "Curso avanzado para profundizar en los conceptos de la física.",
+        "maestro_id": 1,
+        "precio": 30
+    },
+    {
+        "id_curso": 16,
+        "titulo": "Diseño Gráfico con Illustrator",
+        "descripcion": "Domina Adobe Illustrator para crear diseños vectoriales profesionales.",
+        "maestro_id": 2,
+        "precio": 25
+    },
+    {
+        "id_curso": 17,
+        "titulo": "Química Inorgánica",
+        "descripcion": "Explora los principios de la química inorgánica en este curso detallado.",
+        "maestro_id": 3,
+        "precio": 20
+    },
+    {
+        "id_curso": 18,
+        "titulo": "Biología Molecular",
+        "descripcion": "Comprende los fundamentos de la biología molecular y sus aplicaciones.",
+        "maestro_id": 3,
+        "precio": 25
+    },
+    {
+        "id_curso": 19,
+        "titulo": "Desarrollo Web con HTML y CSS",
+        "descripcion": "Aprende a crear sitios web atractivos utilizando HTML y CSS.",
+        "maestro_id": 4,
+        "precio": 25
+    },
+    {
+        "id_curso": 20,
+        "titulo": "Programación Orientada a Objetos con Java",
+        "descripcion": "Curso avanzado de programación orientada a objetos utilizando Java.",
+        "maestro_id": 4,
+        "precio": 30
+    }
+]

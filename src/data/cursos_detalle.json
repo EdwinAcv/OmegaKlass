@@ -1,0 +1,1714 @@
+[
+    {
+        "id_curso": 1,
+        "titulo": "Matemáticas Básicas",
+        "descripcion": "Curso introductorio para comprender los conceptos básicos de matemáticas.",
+        "maestro_id": 1,
+        "secciones": [
+            {
+                "titulo": "Introducción a las Matemáticas",
+                "descripcion": "Una visión general de lo que cubriremos en el curso.",
+                "lecciones": [
+                    {
+                        "titulo": "Bienvenida",
+                        "descripcion": "Introducción al curso y a los objetivos.",
+                        "video": "introduccion.mp4",
+                        "materiales": ["guia_del_curso.pdf"]
+                    },
+                    {
+                        "titulo": "Historia de las Matemáticas",
+                        "descripcion": "Un vistazo a la evolución de las matemáticas a lo largo de la historia.",
+                        "video": "historia_matematicas.mp4",
+                        "materiales": ["linea_tiempo.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Operaciones Básicas",
+                "descripcion": "Cubriendo las operaciones matemáticas fundamentales.",
+                "lecciones": [
+                    {
+                        "titulo": "Suma y Resta",
+                        "descripcion": "Conceptos básicos de suma y resta.",
+                        "video": "suma_resta.mp4",
+                        "materiales": ["ejercicios_suma_resta.pdf"]
+                    },
+                    {
+                        "titulo": "Multiplicación y División",
+                        "descripcion": "Fundamentos de multiplicación y división.",
+                        "video": "multiplicacion_division.mp4",
+                        "materiales": ["ejercicios_multiplicacion_division.pdf"]
+                    },
+                    {
+                        "titulo": "Problemas de Operaciones",
+                        "descripcion": "Resolviendo problemas prácticos utilizando operaciones básicas.",
+                        "video": "problemas_operaciones.mp4",
+                        "materiales": ["problemas_operaciones.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Fracciones y Decimales",
+                "descripcion": "Introducción a fracciones y decimales.",
+                "lecciones": [
+                    {
+                        "titulo": "Entendiendo Fracciones",
+                        "descripcion": "Conceptos básicos de fracciones.",
+                        "video": "fracciones.mp4",
+                        "materiales": ["ejercicios_fracciones.pdf"]
+                    },
+                    {
+                        "titulo": "Operaciones con Fracciones",
+                        "descripcion": "Cómo realizar operaciones matemáticas con fracciones.",
+                        "video": "operaciones_fracciones.mp4",
+                        "materiales": ["ejercicios_operaciones_fracciones.pdf"]
+                    },
+                    {
+                        "titulo": "Decimales y su Uso",
+                        "descripcion": "Conversión entre fracciones y decimales.",
+                        "video": "decimales.mp4",
+                        "materiales": ["ejercicios_decimales.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Geometría Básica",
+                "descripcion": "Fundamentos de la geometría.",
+                "lecciones": [
+                    {
+                        "titulo": "Figuras Geométricas",
+                        "descripcion": "Identificación y propiedades de figuras geométricas.",
+                        "video": "figuras_geometricas.mp4",
+                        "materiales": ["guia_figuras_geometricas.pdf"]
+                    },
+                    {
+                        "titulo": "Áreas y Perímetros",
+                        "descripcion": "Cálculo de áreas y perímetros de figuras básicas.",
+                        "video": "areas_perimetros.mp4",
+                        "materiales": ["ejercicios_areas_perimetros.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Álgebra Básica",
+                "descripcion": "Introducción a los conceptos básicos del álgebra.",
+                "lecciones": [
+                    {
+                        "titulo": "Variables y Expresiones",
+                        "descripcion": "Comprendiendo el uso de variables y expresiones algebraicas.",
+                        "video": "variables_expresiones.mp4",
+                        "materiales": ["ejercicios_variables_expresiones.pdf"]
+                    },
+                    {
+                        "titulo": "Ecuaciones Simples",
+                        "descripcion": "Resolución de ecuaciones algebraicas simples.",
+                        "video": "ecuaciones_simples.mp4",
+                        "materiales": ["ejercicios_ecuaciones_simples.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Aplicaciones Prácticas",
+                "descripcion": "Aplicando conceptos matemáticos a situaciones del mundo real.",
+                "lecciones": [
+                    {
+                        "titulo": "Matemáticas en la Vida Diaria",
+                        "descripcion": "Ejemplos de cómo las matemáticas se aplican en la vida cotidiana.",
+                        "video": "matematicas_vida_diaria.mp4",
+                        "materiales": ["ejercicios_vida_diaria.pdf"]
+                    },
+                    {
+                        "titulo": "Proyectos Matemáticos",
+                        "descripcion": "Proyectos prácticos para aplicar lo aprendido.",
+                        "video": "proyectos_matematicos.mp4",
+                        "materiales": ["proyectos_matematicos.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 2,
+        "titulo": "Física para Principiantes",
+        "descripcion": "Introducción a los fundamentos de la física para estudiantes novatos.",
+        "maestro_id": 1,
+        "secciones": [
+            {
+                "titulo": "Introducción a la Física",
+                "descripcion": "Una visión general de los conceptos fundamentales de la física.",
+                "lecciones": [
+                    {
+                        "titulo": "Bienvenida",
+                        "descripcion": "Introducción al curso y a los objetivos.",
+                        "video": "introduccion_fisica.mp4",
+                        "materiales": ["guia_del_curso.pdf"]
+                    },
+                    {
+                        "titulo": "Historia de la Física",
+                        "descripcion": "Un vistazo a la evolución de la física a lo largo de la historia.",
+                        "video": "historia_fisica.mp4",
+                        "materiales": ["linea_tiempo_fisica.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Cinemática",
+                "descripcion": "Estudio del movimiento de los cuerpos.",
+                "lecciones": [
+                    {
+                        "titulo": "Conceptos Básicos de Cinemática",
+                        "descripcion": "Fundamentos del movimiento en física.",
+                        "video": "conceptos_cinematica.mp4",
+                        "materiales": ["ejercicios_cinematica.pdf"]
+                    },
+                    {
+                        "titulo": "Movimiento Rectilíneo Uniforme",
+                        "descripcion": "Análisis del movimiento rectilíneo uniforme.",
+                        "video": "movimiento_rectilineo_uniforme.mp4",
+                        "materiales": ["ejercicios_movimiento_rectilineo_uniforme.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Dinámica",
+                "descripcion": "Estudio de las fuerzas y su efecto en el movimiento.",
+                "lecciones": [
+                    {
+                        "titulo": "Leyes de Newton",
+                        "descripcion": "Exploración de las tres leyes del movimiento de Newton.",
+                        "video": "leyes_newton.mp4",
+                        "materiales": ["ejercicios_leyes_newton.pdf"]
+                    },
+                    {
+                        "titulo": "Fuerza y Masa",
+                        "descripcion": "Relación entre fuerza y masa.",
+                        "video": "fuerza_masa.mp4",
+                        "materiales": ["ejercicios_fuerza_masa.pdf"]
+                    },
+                    {
+                        "titulo": "Fricción",
+                        "descripcion": "Estudio de la fricción y su impacto en el movimiento.",
+                        "video": "friccion.mp4",
+                        "materiales": ["ejercicios_friccion.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Trabajo y Energía",
+                "descripcion": "Conceptos de trabajo, energía y potencia en física.",
+                "lecciones": [
+                    {
+                        "titulo": "Trabajo",
+                        "descripcion": "Definición y cálculo del trabajo en física.",
+                        "video": "trabajo.mp4",
+                        "materiales": ["ejercicios_trabajo.pdf"]
+                    },
+                    {
+                        "titulo": "Energía Cinética y Potencial",
+                        "descripcion": "Exploración de la energía cinética y potencial.",
+                        "video": "energia_cinetica_potencial.mp4",
+                        "materiales": ["ejercicios_energia.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Termodinámica",
+                "descripcion": "Introducción a los principios de la termodinámica.",
+                "lecciones": [
+                    {
+                        "titulo": "Temperatura y Calor",
+                        "descripcion": "Conceptos básicos de temperatura y calor.",
+                        "video": "temperatura_calor.mp4",
+                        "materiales": ["ejercicios_temperatura_calor.pdf"]
+                    },
+                    {
+                        "titulo": "Primera Ley de la Termodinámica",
+                        "descripcion": "Estudio de la primera ley de la termodinámica.",
+                        "video": "primera_ley_termodinamica.mp4",
+                        "materiales": ["ejercicios_termodinamica.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Ondas y Sonido",
+                "descripcion": "Estudio de las ondas y el sonido.",
+                "lecciones": [
+                    {
+                        "titulo": "Tipos de Ondas",
+                        "descripcion": "Exploración de los diferentes tipos de ondas.",
+                        "video": "tipos_ondas.mp4",
+                        "materiales": ["ejercicios_ondas.pdf"]
+                    },
+                    {
+                        "titulo": "Propiedades del Sonido",
+                        "descripcion": "Estudio de las propiedades del sonido.",
+                        "video": "propiedades_sonido.mp4",
+                        "materiales": ["ejercicios_sonido.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 3,
+        "titulo": "Álgebra Avanzada",
+        "descripcion": "Curso avanzado de álgebra para estudiantes que quieren profundizar en el tema.",
+        "maestro_id": 1,
+        "secciones": [
+            {
+                "titulo": "Ecuaciones y Desigualdades",
+                "descripcion": "Estudio avanzado de ecuaciones y desigualdades.",
+                "lecciones": [
+                    {
+                        "titulo": "Ecuaciones Lineales",
+                        "descripcion": "Resolución de ecuaciones lineales complejas.",
+                        "video": "ecuaciones_lineales.mp4",
+                        "materiales": ["ejercicios_ecuaciones_lineales.pdf"]
+                    },
+                    {
+                        "titulo": "Desigualdades",
+                        "descripcion": "Análisis y resolución de desigualdades.",
+                        "video": "desigualdades.mp4",
+                        "materiales": ["ejercicios_desigualdades.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Polinomios y Funciones",
+                "descripcion": "Exploración de polinomios y sus funciones.",
+                "lecciones": [
+                    {
+                        "titulo": "Polinomios",
+                        "descripcion": "Conceptos y operaciones con polinomios.",
+                        "video": "polinomios.mp4",
+                        "materiales": ["ejercicios_polinomios.pdf"]
+                    },
+                    {
+                        "titulo": "Funciones Polinómicas",
+                        "descripcion": "Estudio de funciones polinómicas.",
+                        "video": "funciones_polinomicas.mp4",
+                        "materiales": ["ejercicios_funciones_polinomicas.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Matrices y Determinantes",
+                "descripcion": "Introducción a matrices y determinantes en álgebra.",
+                "lecciones": [
+                    {
+                        "titulo": "Matrices",
+                        "descripcion": "Definición y operaciones con matrices.",
+                        "video": "matrices.mp4",
+                        "materiales": ["ejercicios_matrices.pdf"]
+                    },
+                    {
+                        "titulo": "Determinantes",
+                        "descripcion": "Cálculo de determinantes y sus aplicaciones.",
+                        "video": "determinantes.mp4",
+                        "materiales": ["ejercicios_determinantes.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Sistemas de Ecuaciones",
+                "descripcion": "Análisis y resolución de sistemas de ecuaciones.",
+                "lecciones": [
+                    {
+                        "titulo": "Sistemas Lineales",
+                        "descripcion": "Resolución de sistemas de ecuaciones lineales.",
+                        "video": "sistemas_lineales.mp4",
+                        "materiales": ["ejercicios_sistemas_lineales.pdf"]
+                    },
+                    {
+                        "titulo": "Métodos de Resolución",
+                        "descripcion": "Diferentes métodos para resolver sistemas de ecuaciones.",
+                        "video": "metodos_resolucion.mp4",
+                        "materiales": ["ejercicios_metodos_resolucion.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Álgebra Matricial",
+                "descripcion": "Estudio avanzado del álgebra matricial.",
+                "lecciones": [
+                    {
+                        "titulo": "Operaciones Matriciales",
+                        "descripcion": "Realización de operaciones con matrices.",
+                        "video": "operaciones_matriciales.mp4",
+                        "materiales": ["ejercicios_operaciones_matriciales.pdf"]
+                    },
+                    {
+                        "titulo": "Aplicaciones del Álgebra Matricial",
+                        "descripcion": "Aplicaciones prácticas del álgebra matricial.",
+                        "video": "aplicaciones_algebra_matricial.mp4",
+                        "materiales": ["ejercicios_aplicaciones_algebra_matricial.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Teoría de Números",
+                "descripcion": "Conceptos avanzados de teoría de números.",
+                "lecciones": [
+                    {
+                        "titulo": "Divisibilidad y Congruencias",
+                        "descripcion": "Estudio de la divisibilidad y las congruencias.",
+                        "video": "divisibilidad_congruencias.mp4",
+                        "materiales": ["ejercicios_divisibilidad_congruencias.pdf"]
+                    },
+                    {
+                        "titulo": "Teoremas Fundamentales",
+                        "descripcion": "Exploración de los teoremas fundamentales de la teoría de números.",
+                        "video": "teoremas_fundamentales.mp4",
+                        "materiales": ["ejercicios_teoremas_fundamentales.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 4,
+        "titulo": "Diseño Gráfico con Adobe Photoshop",
+        "descripcion": "Aprende a utilizar Adobe Photoshop para crear diseños gráficos impresionantes.",
+        "maestro_id": 2,
+        "secciones": [
+            {
+                "titulo": "Introducción a Photoshop",
+                "descripcion": "Una visión general de Adobe Photoshop y sus capacidades.",
+                "lecciones": [
+                    {
+                        "titulo": "Bienvenida",
+                        "descripcion": "Introducción al curso y a los objetivos.",
+                        "video": "introduccion_photoshop.mp4",
+                        "materiales": ["guia_del_curso.pdf"]
+                    },
+                    {
+                        "titulo": "Interfaz de Usuario",
+                        "descripcion": "Exploración de la interfaz de usuario de Photoshop.",
+                        "video": "interfaz_photoshop.mp4",
+                        "materiales": ["guia_interfaz.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Herramientas Básicas",
+                "descripcion": "Conociendo las herramientas básicas de Photoshop.",
+                "lecciones": [
+                    {
+                        "titulo": "Herramientas de Selección",
+                        "descripcion": "Uso de herramientas de selección para editar imágenes.",
+                        "video": "herramientas_seleccion.mp4",
+                        "materiales": ["ejercicios_herramientas_seleccion.pdf"]
+                    },
+                    {
+                        "titulo": "Herramientas de Dibujo",
+                        "descripcion": "Utilización de las herramientas de dibujo en Photoshop.",
+                        "video": "herramientas_dibujo.mp4",
+                        "materiales": ["ejercicios_herramientas_dibujo.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Capas y Máscaras",
+                "descripcion": "Trabajando con capas y máscaras en Photoshop.",
+                "lecciones": [
+                    {
+                        "titulo": "Capas",
+                        "descripcion": "Creación y manejo de capas.",
+                        "video": "capas.mp4",
+                        "materiales": ["ejercicios_capas.pdf"]
+                    },
+                    {
+                        "titulo": "Máscaras",
+                        "descripcion": "Uso de máscaras para edición no destructiva.",
+                        "video": "mascaras.mp4",
+                        "materiales": ["ejercicios_mascaras.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Ajustes de Imagen",
+                "descripcion": "Realizando ajustes de imagen en Photoshop.",
+                "lecciones": [
+                    {
+                        "titulo": "Brillo y Contraste",
+                        "descripcion": "Ajuste de brillo y contraste en imágenes.",
+                        "video": "brillo_contraste.mp4",
+                        "materiales": ["ejercicios_brillo_contraste.pdf"]
+                    },
+                    {
+                        "titulo": "Corrección de Color",
+                        "descripcion": "Corrección de color y balance de blancos.",
+                        "video": "correccion_color.mp4",
+                        "materiales": ["ejercicios_correccion_color.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Efectos y Filtros",
+                "descripcion": "Aplicación de efectos y filtros a las imágenes.",
+                "lecciones": [
+                    {
+                        "titulo": "Filtros Básicos",
+                        "descripcion": "Uso de filtros básicos para mejorar las imágenes.",
+                        "video": "filtros_basicos.mp4",
+                        "materiales": ["ejercicios_filtros_basicos.pdf"]
+                    },
+                    {
+                        "titulo": "Efectos de Capa",
+                        "descripcion": "Creación de efectos de capa para diseños avanzados.",
+                        "video": "efectos_capa.mp4",
+                        "materiales": ["ejercicios_efectos_capa.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Proyectos Prácticos",
+                "descripcion": "Aplicando lo aprendido en proyectos prácticos.",
+                "lecciones": [
+                    {
+                        "titulo": "Proyecto de Diseño de Póster",
+                        "descripcion": "Creación de un póster utilizando técnicas aprendidas.",
+                        "video": "proyecto_poster.mp4",
+                        "materiales": ["guia_proyecto_poster.pdf"]
+                    },
+                    {
+                        "titulo": "Proyecto de Edición Fotográfica",
+                        "descripcion": "Edición de fotografías para mejorar la calidad de imagen.",
+                        "video": "proyecto_edicion_fotografica.mp4",
+                        "materiales": ["guia_proyecto_edicion_fotografica.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 5,
+        "titulo": "Diseño de Logotipos",
+        "descripcion": "Curso especializado en la creación y diseño de logotipos profesionales.",
+        "maestro_id": 2,
+        "secciones": [
+            {
+                "titulo": "Introducción al Diseño de Logotipos",
+                "descripcion": "Una visión general del diseño de logotipos y su importancia.",
+                "lecciones": [
+                    {
+                        "titulo": "Bienvenida",
+                        "descripcion": "Introducción al curso y a los objetivos.",
+                        "video": "introduccion_logotipos.mp4",
+                        "materiales": ["guia_del_curso.pdf"]
+                    },
+                    {
+                        "titulo": "Historia del Diseño de Logotipos",
+                        "descripcion": "Un vistazo a la evolución del diseño de logotipos.",
+                        "video": "historia_logotipos.mp4",
+                        "materiales": ["linea_tiempo_logotipos.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Fundamentos del Diseño de Logotipos",
+                "descripcion": "Conceptos y principios básicos en el diseño de logotipos.",
+                "lecciones": [
+                    {
+                        "titulo": "Teoría del Color",
+                        "descripcion": "Aplicación de la teoría del color en el diseño de logotipos.",
+                        "video": "teoria_color.mp4",
+                        "materiales": ["ejercicios_teoria_color.pdf"]
+                    },
+                    {
+                        "titulo": "Tipografía",
+                        "descripcion": "Uso de la tipografía en el diseño de logotipos.",
+                        "video": "tipografia.mp4",
+                        "materiales": ["ejercicios_tipografia.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Técnicas de Diseño",
+                "descripcion": "Técnicas y herramientas utilizadas en el diseño de logotipos.",
+                "lecciones": [
+                    {
+                        "titulo": "Sketching",
+                        "descripcion": "Técnicas de bocetado para iniciar el diseño de logotipos.",
+                        "video": "sketching.mp4",
+                        "materiales": ["ejercicios_sketching.pdf"]
+                    },
+                    {
+                        "titulo": "Diseño Digital",
+                        "descripcion": "Transferencia de bocetos a diseño digital.",
+                        "video": "diseno_digital.mp4",
+                        "materiales": ["ejercicios_diseno_digital.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Software de Diseño",
+                "descripcion": "Uso de software profesional para crear logotipos.",
+                "lecciones": [
+                    {
+                        "titulo": "Adobe Illustrator",
+                        "descripcion": "Uso de Adobe Illustrator para el diseño de logotipos.",
+                        "video": "illustrator.mp4",
+                        "materiales": ["guia_illustrator.pdf"]
+                    },
+                    {
+                        "titulo": "CorelDRAW",
+                        "descripcion": "Uso de CorelDRAW para el diseño de logotipos.",
+                        "video": "coreldraw.mp4",
+                        "materiales": ["guia_coreldraw.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estrategias de Marca",
+                "descripcion": "Integración del logotipo en la estrategia de marca.",
+                "lecciones": [
+                    {
+                        "titulo": "Identidad Corporativa",
+                        "descripcion": "Creación de una identidad corporativa a través del logotipo.",
+                        "video": "identidad_corporativa.mp4",
+                        "materiales": ["guia_identidad_corporativa.pdf"]
+                    },
+                    {
+                        "titulo": "Presentación del Logotipo",
+                        "descripcion": "Técnicas para presentar el logotipo al cliente.",
+                        "video": "presentacion_logotipo.mp4",
+                        "materiales": ["guia_presentacion_logotipo.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Proyectos Prácticos",
+                "descripcion": "Aplicación de técnicas en proyectos de diseño de logotipos.",
+                "lecciones": [
+                    {
+                        "titulo": "Proyecto de Logotipo Personal",
+                        "descripcion": "Diseño de un logotipo personal utilizando técnicas aprendidas.",
+                        "video": "proyecto_logotipo_personal.mp4",
+                        "materiales": ["guia_proyecto_logotipo_personal.pdf"]
+                    },
+                    {
+                        "titulo": "Proyecto de Logotipo para Empresa",
+                        "descripcion": "Creación de un logotipo para una empresa ficticia.",
+                        "video": "proyecto_logotipo_empresa.mp4",
+                        "materiales": ["guia_proyecto_logotipo_empresa.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 6,
+        "titulo": "Química Orgánica",
+        "descripcion": "Explora los conceptos fundamentales de la química orgánica.",
+        "maestro_id": 3,
+        "secciones": [
+            {
+                "titulo": "Introducción a la Química Orgánica",
+                "descripcion": "Una visión general de los conceptos básicos de la química orgánica.",
+                "lecciones": [
+                    {
+                        "titulo": "Bienvenida",
+                        "descripcion": "Introducción al curso y a los objetivos.",
+                        "video": "introduccion_quimica_organica.mp4",
+                        "materiales": ["guia_del_curso.pdf"]
+                    },
+                    {
+                        "titulo": "Historia de la Química Orgánica",
+                        "descripcion": "Un vistazo a la evolución de la química orgánica.",
+                        "video": "historia_quimica_organica.mp4",
+                        "materiales": ["linea_tiempo_quimica_organica.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estructura de los Compuestos Orgánicos",
+                "descripcion": "Estudio de la estructura y características de los compuestos orgánicos.",
+                "lecciones": [
+                    {
+                        "titulo": "Tipos de Enlaces",
+                        "descripcion": "Exploración de los diferentes tipos de enlaces en compuestos orgánicos.",
+                        "video": "tipos_enlaces.mp4",
+                        "materiales": ["ejercicios_enlaces.pdf"]
+                    },
+                    {
+                        "titulo": "Isomería",
+                        "descripcion": "Conceptos de isomería en química orgánica.",
+                        "video": "isomeria.mp4",
+                        "materiales": ["ejercicios_isomeria.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Reacciones Orgánicas",
+                "descripcion": "Estudio de las principales reacciones en química orgánica.",
+                "lecciones": [
+                    {
+                        "titulo": "Reacciones de Adición",
+                        "descripcion": "Mecanismo y ejemplos de reacciones de adición.",
+                        "video": "reacciones_adicion.mp4",
+                        "materiales": ["ejercicios_reacciones_adicion.pdf"]
+                    },
+                    {
+                        "titulo": "Reacciones de Sustitución",
+                        "descripcion": "Mecanismo y ejemplos de reacciones de sustitución.",
+                        "video": "reacciones_sustitucion.mp4",
+                        "materiales": ["ejercicios_reacciones_sustitucion.pdf"]
+                    },
+                    {
+                        "titulo": "Reacciones de Eliminación",
+                        "descripcion": "Mecanismo y ejemplos de reacciones de eliminación.",
+                        "video": "reacciones_eliminacion.mp4",
+                        "materiales": ["ejercicios_reacciones_eliminacion.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Compuestos Orgánicos Funcionales",
+                "descripcion": "Exploración de los diferentes grupos funcionales en química orgánica.",
+                "lecciones": [
+                    {
+                        "titulo": "Alcoholes y Fenoles",
+                        "descripcion": "Estudio de las propiedades y reacciones de alcoholes y fenoles.",
+                        "video": "alcoholes_fenoles.mp4",
+                        "materiales": ["ejercicios_alcoholes_fenoles.pdf"]
+                    },
+                    {
+                        "titulo": "Aldehídos y Cetonas",
+                        "descripcion": "Propiedades y reacciones de aldehídos y cetonas.",
+                        "video": "aldehidos_cetonas.mp4",
+                        "materiales": ["ejercicios_aldehidos_cetonas.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Síntesis Orgánica",
+                "descripcion": "Técnicas y estrategias de síntesis en química orgánica.",
+                "lecciones": [
+                    {
+                        "titulo": "Síntesis de Compuestos Orgánicos",
+                        "descripcion": "Estrategias para la síntesis de compuestos orgánicos.",
+                        "video": "sintesis_compuestos.mp4",
+                        "materiales": ["ejercicios_sintesis.pdf"]
+                    },
+                    {
+                        "titulo": "Análisis de Productos de Síntesis",
+                        "descripcion": "Técnicas de análisis para productos de síntesis.",
+                        "video": "analisis_productos.mp4",
+                        "materiales": ["ejercicios_analisis.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Aplicaciones de la Química Orgánica",
+                "descripcion": "Aplicaciones prácticas de la química orgánica en la vida cotidiana y la industria.",
+                "lecciones": [
+                    {
+                        "titulo": "Química Orgánica en la Medicina",
+                        "descripcion": "Aplicaciones de la química orgánica en la medicina.",
+                        "video": "quimica_medicina.mp4",
+                        "materiales": ["ejercicios_medicina.pdf"]
+                    },
+                    {
+                        "titulo": "Química Orgánica en la Industria",
+                        "descripcion": "Usos de la química orgánica en diferentes industrias.",
+                        "video": "quimica_industria.mp4",
+                        "materiales": ["ejercicios_industria.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 7,
+        "titulo": "Biología Celular",
+        "descripcion": "Comprende la estructura y función de las células en este curso detallado.",
+        "secciones": [
+            {
+                "titulo": "Introducción a la Biología Celular",
+                "descripcion": "Conceptos básicos y la importancia de la biología celular.",
+                "lecciones": [
+                    {
+                        "titulo": "Qué es la Biología Celular",
+                        "descripcion": "Definición y relevancia de la biología celular.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Historia de la Biología Celular",
+                        "descripcion": "Evolución y descubrimientos clave en el campo.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    },
+                    {
+                        "titulo": "Métodos de Estudio de Células",
+                        "descripcion": "Técnicas y herramientas utilizadas para estudiar células.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estructura Celular",
+                "descripcion": "Detalles sobre la estructura interna de las células.",
+                "lecciones": [
+                    {
+                        "titulo": "Membrana Celular",
+                        "descripcion": "Funciones y composición de la membrana celular.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    },
+                    {
+                        "titulo": "Núcleo y Orgánulos",
+                        "descripcion": "Estructura y función del núcleo y otros orgánulos.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Citoesqueleto",
+                        "descripcion": "Función y componentes del citoesqueleto.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Funciones Celulares",
+                "descripcion": "Cómo las células realizan sus funciones vitales.",
+                "lecciones": [
+                    {
+                        "titulo": "Metabolismo Celular",
+                        "descripcion": "Procesos metabólicos en las células.",
+                        "video": "https://example.com/video7.mp4",
+                        "materiales": ["https://example.com/material7.pdf"]
+                    },
+                    {
+                        "titulo": "División Celular",
+                        "descripcion": "Mitosis y meiosis en la división celular.",
+                        "video": "https://example.com/video8.mp4",
+                        "materiales": ["https://example.com/material8.pdf"]
+                    },
+                    {
+                        "titulo": "Transporte Celular",
+                        "descripcion": "Mecanismos de transporte dentro y fuera de la célula.",
+                        "video": "https://example.com/video9.mp4",
+                        "materiales": ["https://example.com/material9.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Biología Celular en la Práctica",
+                "descripcion": "Aplicaciones prácticas y técnicas en biología celular.",
+                "lecciones": [
+                    {
+                        "titulo": "Cultivo Celular",
+                        "descripcion": "Métodos y aplicaciones del cultivo celular.",
+                        "video": "https://example.com/video10.mp4",
+                        "materiales": ["https://example.com/material10.pdf"]
+                    },
+                    {
+                        "titulo": "Microscopía",
+                        "descripcion": "Uso de microscopios para observar células.",
+                        "video": "https://example.com/video11.mp4",
+                        "materiales": ["https://example.com/material11.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 8,
+        "titulo": "Programación en Python",
+        "descripcion": "Aprende a programar en Python desde cero con este curso completo.",
+        "secciones": [
+            {
+                "titulo": "Introducción a Python",
+                "descripcion": "Conceptos básicos y configuración del entorno de desarrollo.",
+                "lecciones": [
+                    {
+                        "titulo": "Qué es Python",
+                        "descripcion": "Introducción al lenguaje de programación Python.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Instalación de Python",
+                        "descripcion": "Cómo instalar Python y configurar el entorno de desarrollo.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    },
+                    {
+                        "titulo": "Sintaxis Básica",
+                        "descripcion": "Elementos básicos de la sintaxis de Python.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Tipos de Datos y Operadores",
+                "descripcion": "Manejo de diferentes tipos de datos y operadores en Python.",
+                "lecciones": [
+                    {
+                        "titulo": "Tipos de Datos",
+                        "descripcion": "Variables, enteros, flotantes y cadenas de texto.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    },
+                    {
+                        "titulo": "Operadores Aritméticos",
+                        "descripcion": "Uso de operadores para realizar cálculos.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Operadores de Comparación",
+                        "descripcion": "Cómo comparar valores utilizando operadores.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estructuras de Control",
+                "descripcion": "Control del flujo del programa con estructuras condicionales y bucles.",
+                "lecciones": [
+                    {
+                        "titulo": "Sentencias If",
+                        "descripcion": "Uso de sentencias if para tomar decisiones.",
+                        "video": "https://example.com/video7.mp4",
+                        "materiales": ["https://example.com/material7.pdf"]
+                    },
+                    {
+                        "titulo": "Bucles For y While",
+                        "descripcion": "Uso de bucles para iterar sobre secuencias.",
+                        "video": "https://example.com/video8.mp4",
+                        "materiales": ["https://example.com/material8.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Funciones",
+                "descripcion": "Definición y uso de funciones en Python.",
+                "lecciones": [
+                    {
+                        "titulo": "Definición de Funciones",
+                        "descripcion": "Cómo crear y utilizar funciones en Python.",
+                        "video": "https://example.com/video9.mp4",
+                        "materiales": ["https://example.com/material9.pdf"]
+                    },
+                    {
+                        "titulo": "Parámetros y Argumentos",
+                        "descripcion": "Uso de parámetros y argumentos en funciones.",
+                        "video": "https://example.com/video10.mp4",
+                        "materiales": ["https://example.com/material10.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Módulos y Paquetes",
+                "descripcion": "Cómo organizar y reutilizar código con módulos y paquetes.",
+                "lecciones": [
+                    {
+                        "titulo": "Uso de Módulos",
+                        "descripcion": "Importación y uso de módulos en Python.",
+                        "video": "https://example.com/video11.mp4",
+                        "materiales": ["https://example.com/material11.pdf"]
+                    },
+                    {
+                        "titulo": "Creación de Paquetes",
+                        "descripcion": "Cómo crear y utilizar paquetes en Python.",
+                        "video": "https://example.com/video12.mp4",
+                        "materiales": ["https://example.com/material12.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 9,
+        "titulo": "Estructuras de Datos",
+        "descripcion": "Curso detallado sobre las diferentes estructuras de datos utilizadas en la programación.",
+        "secciones": [
+            {
+                "titulo": "Introducción a las Estructuras de Datos",
+                "descripcion": "Conceptos básicos y la importancia de las estructuras de datos.",
+                "lecciones": [
+                    {
+                        "titulo": "Qué son las Estructuras de Datos",
+                        "descripcion": "Definición y propósito de las estructuras de datos.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Tipos de Estructuras de Datos",
+                        "descripcion": "Diferentes tipos de estructuras y su uso.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estructuras de Datos Lineales",
+                "descripcion": "Estudio de estructuras de datos lineales como listas y colas.",
+                "lecciones": [
+                    {
+                        "titulo": "Listas",
+                        "descripcion": "Cómo utilizar listas para almacenar datos.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Pilhas y Colas",
+                        "descripcion": "Uso de pilas y colas para el almacenamiento temporal de datos.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estructuras de Datos No Lineales",
+                "descripcion": "Estudio de estructuras de datos no lineales como árboles y grafos.",
+                "lecciones": [
+                    {
+                        "titulo": "Árboles",
+                        "descripcion": "Conceptos y aplicaciones de estructuras de árboles.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Grafos",
+                        "descripcion": "Uso de grafos para representar relaciones complejas.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Algoritmos de Ordenamiento y Búsqueda",
+                "descripcion": "Algoritmos para ordenar y buscar datos en estructuras de datos.",
+                "lecciones": [
+                    {
+                        "titulo": "Ordenamiento por Inserción",
+                        "descripcion": "Cómo funciona el algoritmo de ordenamiento por inserción.",
+                        "video": "https://example.com/video7.mp4",
+                        "materiales": ["https://example.com/material7.pdf"]
+                    },
+                    {
+                        "titulo": "Búsqueda Binaria",
+                        "descripcion": "Método de búsqueda eficiente en estructuras ordenadas.",
+                        "video": "https://example.com/video8.mp4",
+                        "materiales": ["https://example.com/material8.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 10,
+        "titulo": "Bases de Datos SQL",
+        "descripcion": "Aprende a manejar bases de datos SQL y realizar consultas eficientes.",
+        "secciones": [
+            {
+                "titulo": "Introducción a SQL",
+                "descripcion": "Conceptos básicos y el lenguaje SQL.",
+                "lecciones": [
+                    {
+                        "titulo": "Qué es SQL",
+                        "descripcion": "Definición y propósito del lenguaje SQL.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Configuración de un Entorno SQL",
+                        "descripcion": "Cómo configurar un entorno para trabajar con SQL.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Consultas Básicas",
+                "descripcion": "Cómo realizar consultas básicas en SQL.",
+                "lecciones": [
+                    {
+                        "titulo": "SELECT y WHERE",
+                        "descripcion": "Uso de SELECT y WHERE para recuperar datos.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "ORDER BY y LIMIT",
+                        "descripcion": "Ordenar y limitar resultados de consultas.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Consultas Avanzadas",
+                "descripcion": "Técnicas avanzadas de consulta en SQL.",
+                "lecciones": [
+                    {
+                        "titulo": "JOINs",
+                        "descripcion": "Cómo combinar datos de múltiples tablas.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Subconsultas",
+                        "descripcion": "Uso de subconsultas para consultas complejas.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Administración de Bases de Datos",
+                "descripcion": "Gestión y administración de bases de datos SQL.",
+                "lecciones": [
+                    {
+                        "titulo": "Creación y Modificación de Tablas",
+                        "descripcion": "Cómo crear y modificar estructuras de tablas en SQL.",
+                        "video": "https://example.com/video7.mp4",
+                        "materiales": ["https://example.com/material7.pdf"]
+                    },
+                    {
+                        "titulo": "Índices y Vistas",
+                        "descripcion": "Uso de índices y vistas para mejorar el rendimiento.",
+                        "video": "https://example.com/video8.mp4",
+                        "materiales": ["https://example.com/material8.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 11,
+        "titulo": "Inglés para Principiantes",
+        "descripcion": "Curso básico de inglés para aquellos que están comenzando a aprender el idioma.",
+        "secciones": [
+            {
+                "titulo": "Introducción al Inglés",
+                "descripcion": "Fundamentos del idioma inglés.",
+                "lecciones": [
+                    {
+                        "titulo": "Alfabeto y Pronunciación",
+                        "descripcion": "Cómo pronunciar el alfabeto y los sonidos básicos.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Frases Básicas",
+                        "descripcion": "Frases y saludos esenciales en inglés.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Gramática Básica",
+                "descripcion": "Conceptos básicos de gramática en inglés.",
+                "lecciones": [
+                    {
+                        "titulo": "Artículos y Sustantivos",
+                        "descripcion": "Uso de artículos y sustantivos en inglés.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Verbos y Tiempos Verbales",
+                        "descripcion": "Introducción a los verbos y tiempos verbales.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Vocabulario Básico",
+                "descripcion": "Palabras y frases útiles para principiantes.",
+                "lecciones": [
+                    {
+                        "titulo": "Colores y Números",
+                        "descripcion": "Vocabulario relacionado con colores y números.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Días de la Semana y Meses",
+                        "descripcion": "Nombres de días y meses en inglés.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Práctica Oral y Escrita",
+                "descripcion": "Ejercicios para practicar la comprensión y producción en inglés.",
+                "lecciones": [
+                    {
+                        "titulo": "Ejercicios de Escucha",
+                        "descripcion": "Actividades para mejorar la comprensión auditiva.",
+                        "video": "https://example.com/video7.mp4",
+                        "materiales": ["https://example.com/material7.pdf"]
+                    },
+                    {
+                        "titulo": "Redacción Básica",
+                        "descripcion": "Ejercicios para mejorar la escritura en inglés.",
+                        "video": "https://example.com/video8.mp4",
+                        "materiales": ["https://example.com/material8.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 12,
+        "titulo": "Conversación en Inglés",
+        "descripcion": "Mejora tus habilidades de conversación en inglés con este curso práctico.",
+        "secciones": [
+            {
+                "titulo": "Iniciando Conversaciones",
+                "descripcion": "Cómo iniciar y mantener una conversación en inglés.",
+                "lecciones": [
+                    {
+                        "titulo": "Saludos y Presentaciones",
+                        "descripcion": "Frases para saludar y presentarse.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Hacer Preguntas",
+                        "descripcion": "Formular preguntas para obtener información.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Desarrollo de Conversaciones",
+                "descripcion": "Cómo mantener y desarrollar una conversación.",
+                "lecciones": [
+                    {
+                        "titulo": "Responder y Aclarar",
+                        "descripcion": "Técnicas para responder y aclarar información.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Expresar Opiniones",
+                        "descripcion": "Cómo expresar y justificar tus opiniones.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Práctica de Conversación",
+                "descripcion": "Ejercicios para practicar la conversación en inglés.",
+                "lecciones": [
+                    {
+                        "titulo": "Diálogos Simulados",
+                        "descripcion": "Práctica de diálogos en diferentes contextos.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Role-Playing",
+                        "descripcion": "Actividades de role-playing para mejorar la fluidez.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 13,
+        "titulo": "Francés Básico",
+        "descripcion": "Curso introductorio para aprender los conceptos básicos del francés.",
+        "secciones": [
+            {
+                "titulo": "Introducción al Francés",
+                "descripcion": "Fundamentos y primeras palabras en francés.",
+                "lecciones": [
+                    {
+                        "titulo": "El Alfabeto Francés",
+                        "descripcion": "Cómo pronunciar el alfabeto en francés.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Frases Comunes",
+                        "descripcion": "Frases y saludos básicos en francés.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Gramática Básica",
+                "descripcion": "Aspectos básicos de la gramática francesa.",
+                "lecciones": [
+                    {
+                        "titulo": "Artículos y Sustantivos",
+                        "descripcion": "Uso de artículos y sustantivos en francés.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Verbos Básicos",
+                        "descripcion": "Conjugación y uso de verbos básicos.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Vocabulario Inicial",
+                "descripcion": "Palabras y frases esenciales para principiantes.",
+                "lecciones": [
+                    {
+                        "titulo": "Números y Colores",
+                        "descripcion": "Vocabulario relacionado con números y colores.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Días de la Semana y Meses",
+                        "descripcion": "Nombres de días y meses en francés.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 14,
+        "titulo": "Francés Intermedio",
+        "descripcion": "Curso intermedio de francés para aquellos que quieren mejorar su nivel.",
+        "secciones": [
+            {
+                "titulo": "Revisión de Conceptos Básicos",
+                "descripcion": "Repaso y profundización en conceptos básicos.",
+                "lecciones": [
+                    {
+                        "titulo": "Repaso de Gramática",
+                        "descripcion": "Revisión de aspectos clave de la gramática.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Ampliación de Vocabulario",
+                        "descripcion": "Expansión del vocabulario inicial.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Estructuras Gramaticales Avanzadas",
+                "descripcion": "Conceptos gramaticales más avanzados.",
+                "lecciones": [
+                    {
+                        "titulo": "Tiempos Verbales",
+                        "descripcion": "Uso de tiempos verbales avanzados en francés.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Pronombres y Preposiciones",
+                        "descripcion": "Uso de pronombres y preposiciones en frases.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Conversación y Comprensión",
+                "descripcion": "Mejora de habilidades de conversación y comprensión oral.",
+                "lecciones": [
+                    {
+                        "titulo": "Diálogos Avanzados",
+                        "descripcion": "Práctica con diálogos más complejos.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Comprensión Auditiva",
+                        "descripcion": "Ejercicios para mejorar la comprensión auditiva.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 15,
+        "titulo": "Física Avanzada",
+        "descripcion": "Curso avanzado para profundizar en los conceptos de la física.",
+        "secciones": [
+            {
+                "titulo": "Fundamentos de la Física Avanzada",
+                "descripcion": "Revisión de los principios fundamentales.",
+                "lecciones": [
+                    {
+                        "titulo": "Principios de Mecánica Cuántica",
+                        "descripcion": "Conceptos clave de la mecánica cuántica.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Relatividad Especial",
+                        "descripcion": "Teoría de la relatividad especial y sus aplicaciones.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Electromagnetismo",
+                "descripcion": "Estudio avanzado del electromagnetismo.",
+                "lecciones": [
+                    {
+                        "titulo": "Campos Eléctricos y Magnéticos",
+                        "descripcion": "Conceptos y ecuaciones de campos eléctricos y magnéticos.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Ondas Electromagnéticas",
+                        "descripcion": "Teoría y aplicaciones de ondas electromagnéticas.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Física de Partículas",
+                "descripcion": "Introducción a la física de partículas y el modelo estándar.",
+                "lecciones": [
+                    {
+                        "titulo": "Partículas Fundamentales",
+                        "descripcion": "Tipos y propiedades de partículas fundamentales.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Interacciones de Partículas",
+                        "descripcion": "Interacciones y colisiones entre partículas.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 16,
+        "titulo": "Diseño Gráfico con Illustrator",
+        "descripcion": "Domina Adobe Illustrator para crear diseños vectoriales profesionales.",
+        "secciones": [
+            {
+                "titulo": "Introducción a Illustrator",
+                "descripcion": "Conceptos básicos y herramientas de Illustrator.",
+                "lecciones": [
+                    {
+                        "titulo": "Interfaz de Illustrator",
+                        "descripcion": "Explora la interfaz y las herramientas principales.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Herramientas de Dibujo",
+                        "descripcion": "Uso de herramientas básicas de dibujo.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Creación de Diseños Vectoriales",
+                "descripcion": "Técnicas para crear y editar gráficos vectoriales.",
+                "lecciones": [
+                    {
+                        "titulo": "Creación de Formas Básicas",
+                        "descripcion": "Cómo crear y modificar formas básicas.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Trabajo con Color y Gradientes",
+                        "descripcion": "Uso de color y gradientes en Illustrator.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Proyectos y Aplicaciones",
+                "descripcion": "Aplicaciones prácticas y creación de proyectos.",
+                "lecciones": [
+                    {
+                        "titulo": "Diseño de Logotipos",
+                        "descripcion": "Creación de logotipos profesionales.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Diseño de Carteles",
+                        "descripcion": "Cómo diseñar carteles atractivos.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 17,
+        "titulo": "Química Inorgánica",
+        "descripcion": "Explora los principios de la química inorgánica en este curso detallado.",
+        "secciones": [
+            {
+                "titulo": "Fundamentos de Química Inorgánica",
+                "descripcion": "Introducción a los conceptos básicos de química inorgánica.",
+                "lecciones": [
+                    {
+                        "titulo": "Estructura Atómica",
+                        "descripcion": "Estudio de la estructura y configuración de átomos.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Tipos de Enlaces Químicos",
+                        "descripcion": "Diferentes tipos de enlaces en compuestos inorgánicos.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Química de los Elementos",
+                "descripcion": "Estudio de los elementos químicos y sus compuestos.",
+                "lecciones": [
+                    {
+                        "titulo": "Metales y No Metales",
+                        "descripcion": "Propiedades y aplicaciones de metales y no metales.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Gases y Ácidos",
+                        "descripcion": "Comportamiento de gases y ácidos en reacciones químicas.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Reacciones Inorgánicas",
+                "descripcion": "Tipos y mecanismos de reacciones en química inorgánica.",
+                "lecciones": [
+                    {
+                        "titulo": "Reacciones de Oxidación-Reducción",
+                        "descripcion": "Conceptos de reacciones redox y su importancia.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Reacciones de Precipitación",
+                        "descripcion": "Formación y análisis de precipitados.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 18,
+        "titulo": "Biología Molecular",
+        "descripcion": "Comprende los fundamentos de la biología molecular y sus aplicaciones.",
+        "secciones": [
+            {
+                "titulo": "Introducción a la Biología Molecular",
+                "descripcion": "Conceptos básicos y estructura de moléculas biológicas.",
+                "lecciones": [
+                    {
+                        "titulo": "Estructura del ADN",
+                        "descripcion": "Composición y estructura del ADN.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Replicación del ADN",
+                        "descripcion": "Proceso de replicación del ADN.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Transcripción y Traducción",
+                "descripcion": "Mecanismos de transcripción y traducción genética.",
+                "lecciones": [
+                    {
+                        "titulo": "Transcripción del ADN",
+                        "descripcion": "Proceso de síntesis de ARN a partir de ADN.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Traducción del ARN",
+                        "descripcion": "Síntesis de proteínas a partir de ARN mensajero.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Regulación Genética",
+                "descripcion": "Mecanismos que regulan la expresión génica.",
+                "lecciones": [
+                    {
+                        "titulo": "Control de la Expresión Génica",
+                        "descripcion": "Cómo se controla la expresión de genes.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Mutaciones y Reparación",
+                        "descripcion": "Tipos de mutaciones y mecanismos de reparación del ADN.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 19,
+        "titulo": "Desarrollo Web con HTML y CSS",
+        "descripcion": "Aprende a crear sitios web atractivos utilizando HTML y CSS.",
+        "secciones": [
+            {
+                "titulo": "Introducción a HTML",
+                "descripcion": "Conceptos básicos de HTML y estructura de páginas web.",
+                "lecciones": [
+                    {
+                        "titulo": "Estructura de una Página HTML",
+                        "descripcion": "Cómo estructurar una página HTML.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Etiquetas HTML Básicas",
+                        "descripcion": "Uso de etiquetas HTML para contenido básico.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Introducción a CSS",
+                "descripcion": "Estilos y diseño con CSS.",
+                "lecciones": [
+                    {
+                        "titulo": "Selectores y Propiedades",
+                        "descripcion": "Uso de selectores y propiedades CSS.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Diseño de Layouts",
+                        "descripcion": "Técnicas para diseñar layouts con CSS.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Diseño Responsive",
+                "descripcion": "Adaptación de sitios web para diferentes dispositivos.",
+                "lecciones": [
+                    {
+                        "titulo": "Media Queries",
+                        "descripcion": "Uso de media queries para diseño responsive.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Flexbox y Grid",
+                        "descripcion": "Diseño flexible y basado en grid con CSS.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_curso": 20,
+        "titulo": "Programación Orientada a Objetos con Java",
+        "descripcion": "Curso avanzado de programación orientada a objetos utilizando Java.",
+        "secciones": [
+            {
+                "titulo": "Fundamentos de POO",
+                "descripcion": "Conceptos básicos de la programación orientada a objetos.",
+                "lecciones": [
+                    {
+                        "titulo": "Clases y Objetos",
+                        "descripcion": "Creación y uso de clases y objetos en Java.",
+                        "video": "https://example.com/video1.mp4",
+                        "materiales": ["https://example.com/material1.pdf"]
+                    },
+                    {
+                        "titulo": "Encapsulamiento",
+                        "descripcion": "Uso de encapsulamiento para ocultar datos.",
+                        "video": "https://example.com/video2.mp4",
+                        "materiales": ["https://example.com/material2.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Herencia y Polimorfismo",
+                "descripcion": "Conceptos de herencia y polimorfismo en Java.",
+                "lecciones": [
+                    {
+                        "titulo": "Herencia en Java",
+                        "descripcion": "Uso de herencia para extender clases.",
+                        "video": "https://example.com/video3.mp4",
+                        "materiales": ["https://example.com/material3.pdf"]
+                    },
+                    {
+                        "titulo": "Polimorfismo",
+                        "descripcion": "Concepto de polimorfismo y su aplicación.",
+                        "video": "https://example.com/video4.mp4",
+                        "materiales": ["https://example.com/material4.pdf"]
+                    }
+                ]
+            },
+            {
+                "titulo": "Interfaces y Clases Abstractas",
+                "descripcion": "Uso de interfaces y clases abstractas en Java.",
+                "lecciones": [
+                    {
+                        "titulo": "Interfaces",
+                        "descripcion": "Definición y uso de interfaces.",
+                        "video": "https://example.com/video5.mp4",
+                        "materiales": ["https://example.com/material5.pdf"]
+                    },
+                    {
+                        "titulo": "Clases Abstractas",
+                        "descripcion": "Uso de clases abstractas para diseñar aplicaciones.",
+                        "video": "https://example.com/video6.mp4",
+                        "materiales": ["https://example.com/material6.pdf"]
+                    }
+                ]
+            }
+        ]
+    }
+]

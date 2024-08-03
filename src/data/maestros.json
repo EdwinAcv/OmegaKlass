@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "materia": ["Matematicas", "Fisica"],
+        "sub_abilidades": ["Matemáticas Básicas", "Física para Principiantes", "Álgebra Avanzada", "Física Avanzada"],
+        "descipcion": "Especializado en el campo de las matemáticas y física, y llevo más de una década ayudando a los estudiantes a dominar estas materias. Mi enfoque se centra en hacer que los conceptos complejos sean accesibles y comprensibles para todos.",
+        "tutorias": true
+    },
+    {
+        "id": 2,
+        "nombre": "Maria",
+        "apellido": "Gomez",
+        "materia": ["Diseño grafico"],
+        "sub_abilidades": ["Diseño Gráfico con Adobe Photoshop", "Diseño de Logotipos", "Diseño Gráfico con Illustrator"],
+        "descipcion": "Soy experta en diseño gráfico con cinco años de experiencia. Mi pasión es guiar a los estudiantes para que descubran y desarrollen su propio estilo artístico utilizando las herramientas más modernas del diseño digital.",
+        "tutorias": true
+    },
+    {
+        "id": 3,
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "materia": ["Quimica", "Biologia"],
+        "sub_abilidades": ["Química Orgánica", "Biología Celular", "Química Inorgánica", "Biología Molecular"],
+        "descipcion": "Dedico mi tiempo a la enseñanza de química y biología, con ocho años de experiencia en el campo. Me esfuerzo por inspirar a mis estudiantes a explorar el mundo de las ciencias naturales y entender los procesos que rigen la vida.",
+        "tutorias": false
+    },
+    {
+        "id": 4,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "materia": ["Progamacion", "Estructura de datos", "Base de datos"],
+        "sub_abilidades": ["Programación en Python", "Estructuras de Datos", "Bases de Datos SQL", "Desarrollo Web con HTML y CSS", "Programación Orientada a Objetos con Java"],
+        "descipcion": "Con seis años de experiencia, enseño programación, estructura de datos y bases de datos. Me apasiona transmitir conocimientos técnicos y prácticos que preparen a los estudiantes para el mundo profesional en el ámbito de la informática.",
+        "tutorias": true
+    },
+    {
+        "id": 5,
+        "nombre": "Ana",
+        "apellido": "Martinez",
+        "materia": ["Ingles", "Frances"],
+        "sub_abilidades": ["Inglés para Principiantes", "Conversación en Inglés", "Francés Básico", "Francés Intermedio"],
+        "descipcion": "Soy maestra de inglés y francés, con siete años dedicados a la enseñanza de idiomas. Mi objetivo es facilitar el aprendizaje de nuevas lenguas mediante métodos interactivos y culturales, para que mis estudiantes se sientan cómodos y confiados al comunicarse en otro idioma.",
+        "tutorias": true
+    }
+]
