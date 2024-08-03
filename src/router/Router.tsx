@@ -8,6 +8,7 @@ import { AppTheme } from '../themes'
 import { NosotrosPage } from '../pages/nosotros/NosotrosPage'
 import { ProfesoresPage } from '../pages/profesores/ProfesoresPage'
 import { PerfilEstudiantePage } from '../pages/estudiante/PerfilEstudiantePage'
+import { DetalleCursoPage } from '../pages/cursos/detalle-curso/detalle-curso'
 
 export const Router = () => {
 
@@ -23,7 +24,7 @@ export const Router = () => {
 
               {/* felix */}
               <Route path="/cursos" element={<CursosPage />} />
-              <Route path="/cursos_detalle" element={<CursosPage />} />
+              <Route path="/cursos/:id" element={<DetalleCursoPage />} />
               {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
               <Route path="/perfil_estudiante" element={<PerfilEstudiantePage />} />
 
@@ -31,6 +32,7 @@ export const Router = () => {
               {/* George */}
               <Route path="/profesores" element={<ProfesoresPage />} />
               <Route path="/perfilmaestro" element={<CursosPage />} />
+              <Route path="/profesores" element={<ProfesoresPage />} />
 
               {/* opcionales */}
 
