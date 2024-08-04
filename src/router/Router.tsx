@@ -22,19 +22,32 @@ export const Router = () => {
               <Route path="/nosotros" element={<NosotrosPage />} />
               <Route path="/planes" element={<CursosPage />} />
 
+              {/*
+                  En el home page se puede agregar la parte de los planes
+                  El home page pued tener informacion basica de algunas profesores y hablando un poco del proyecto 
+                  La pagina nosotros debe abundar mas de la empresa y quisas tener el organigra y el analisis FODA
+              */}
+
               {/* felix */}
               <Route path="/cursos" element={<CursosPage />} />
               <Route path="/cursos/:id" element={<DetalleCursoPage />} />
-              {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
               <Route path="/perfil_estudiante" element={<PerfilEstudiantePage />} />
+              {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
+
+              {/*
+                En el perfil del estudiante se debe ver los cursos que tiene el estudiante y poder filtrar, pueden ser cards como en la pagina del curso
+                En el json del estudiante el campo cursos es un arregl ode string con los id de los cursos para agregar o mas cursos solo hay que aumenta el arreglo
+              */}
 
 
               {/* George */}
               <Route path="/profesores" element={<ProfesoresPage />} />
               <Route path="/perfilmaestro" element={<CursosPage />} />
               <Route path="/profesores" element={<ProfesoresPage />} />
-
-              {/* opcionales */}
+              {/*
+                Se deben ver los curos que tiene el profesor y poder filtrar/paginar
+                Debe tener un parte para agendar las tutorias en caso de que el profesor permita tutorias
+              */}
 
           </Routes>
       </MainLayout>
