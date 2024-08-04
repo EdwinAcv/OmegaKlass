@@ -9,6 +9,8 @@ import { NosotrosPage } from '../pages/nosotros/NosotrosPage'
 import { ProfesoresPage } from '../pages/profesores/ProfesoresPage'
 import { PerfilEstudiantePage } from '../pages/estudiante/PerfilEstudiantePage'
 import { DetalleCursoPage } from '../pages/cursos/detalle-curso/detalle-curso'
+import PageTransition from '../components/pageTransition'
+import {  } from 'react-router-dom'
 
 export const Router = () => {
 
@@ -29,9 +31,9 @@ export const Router = () => {
               */}
 
               {/* felix */}
-              <Route path="/cursos" element={<CursosPage />} />
-              <Route path="/cursos/:id" element={<DetalleCursoPage />} />
-              <Route path="/perfil_estudiante" element={<PerfilEstudiantePage />} />
+              <Route path="/cursos" element={<PageTransition><CursosPage /></PageTransition>} />
+              <Route path="/cursos/:id" element={<PageTransition><DetalleCursoPage /></PageTransition>} />
+              <Route path="/perfil_estudiante" element={<PageTransition><PerfilEstudiantePage/></PageTransition>} />
               {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
 
               {/*
@@ -48,7 +50,6 @@ export const Router = () => {
                 Se deben ver los curos que tiene el profesor y poder filtrar/paginar
                 Debe tener un parte para agendar las tutorias en caso de que el profesor permita tutorias
               */}
-
           </Routes>
       </MainLayout>
     </AppTheme>

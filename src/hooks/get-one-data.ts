@@ -1,6 +1,11 @@
 import { useState, useEffect } from 'react';
 
-const useFetchJson = <T>(url: string) => {
+// Define una interfaz para el tipo de los datos en tu JSON
+interface DataItem {
+  id: number;
+}
+
+const useGetSingleRecordById = <T extends DataItem>(url: string, id: number) => {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<Error | null>(null);
@@ -12,13 +17,14 @@ const useFetchJson = <T>(url: string) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        // Verifica si la respuesta es JSON
         const contentType = response.headers.get('Content-Type');
         if (!contentType || !contentType.includes('application/json')) {
           throw new Error('Expected JSON, but received: ' + contentType);
         }
-        const result = await response.json();
-        setData(result);
+        const result: T[] = await response.json();
+
+        const record = result.find((item) => item.id === +id);
+        setData(record || null);
       } catch (error) {
         setError(error as Error);
       } finally {
@@ -27,9 +33,9 @@ const useFetchJson = <T>(url: string) => {
     };
 
     fetchData();
-  }, [url]);
+  }, [url, id]);
 
   return { data, loading, error };
 };
 
-export default useFetchJson;
+export default useGetSingleRecordById;

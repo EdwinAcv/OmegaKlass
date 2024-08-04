@@ -1,10 +1,10 @@
 import React from 'react';
 import CourseCard from '../curso-card/Curso-card';
-import { Course } from '../../../interfaces/cursos';
+import {  Cursos } from '../../../interfaces/cursos';
 import Grid from '@mui/material/Grid';
 
 interface CourseListProps {
-  courses: Course[];
+  courses: Cursos[];
 }
 
 const CourseList: React.FC<CourseListProps> = ({ courses }) => {
@@ -13,10 +13,12 @@ const CourseList: React.FC<CourseListProps> = ({ courses }) => {
       {courses.map((course, index) => (
         <Grid item xs={12} sm={6} md={2} key={index}>
           <CourseCard
-            title={course.title}
-            description={course.description}
+            titulo={course.titulo}
+            descripcion={course.descripcion}
             imageUrl={course.imageUrl}
-            onMoreDetails={course.onMoreDetails}
+            id={course.id}
+            precio={course.precio}
+            maestro_id={course.maestro_id}
           />
         </Grid>
       ))}

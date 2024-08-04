@@ -1,142 +1,162 @@
 [
     {
-        "id_curso": 1,
+        "id": 1,
         "titulo": "Matemáticas Básicas",
         "descripcion": "Curso introductorio para comprender los conceptos básicos de matemáticas.",
         "maestro_id": 1,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Matemáticas+Básicas"
     },
     {
-        "id_curso": 2,
+        "id": 2,
         "titulo": "Física para Principiantes",
         "descripcion": "Introducción a los fundamentos de la física para estudiantes novatos.",
         "maestro_id": 1,
-        "precio": 20
+        "precio": 20,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Física+para+Principiantes"
     },
     {
-        "id_curso": 3,
+        "id": 3,
         "titulo": "Álgebra Avanzada",
         "descripcion": "Curso avanzado de álgebra para estudiantes que quieren profundizar en el tema.",
         "maestro_id": 1,
-        "precio": 30
+        "precio": 30,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Álgebra+Avanzada"
     },
     {
-        "id_curso": 4,
+        "id": 4,
         "titulo": "Diseño Gráfico con Adobe Photoshop",
         "descripcion": "Aprende a utilizar Adobe Photoshop para crear diseños gráficos impresionantes.",
         "maestro_id": 2,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Adobe+Photoshop"
     },
     {
-        "id_curso": 5,
+        "id": 5,
         "titulo": "Diseño de Logotipos",
         "descripcion": "Curso especializado en la creación y diseño de logotipos profesionales.",
         "maestro_id": 2,
-        "precio": 30
+        "precio": 30,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Diseño+de+Logotipos"
     },
     {
-        "id_curso": 6,
+        "id": 6,
         "titulo": "Química Orgánica",
         "descripcion": "Explora los conceptos fundamentales de la química orgánica.",
         "maestro_id": 3,
-        "precio": 20
+        "precio": 20,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Química+Orgánica"
     },
     {
-        "id_curso": 7,
+        "id": 7,
         "titulo": "Biología Celular",
         "descripcion": "Comprende la estructura y función de las células en este curso detallado.",
         "maestro_id": 3,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Biología+Celular"
     },
     {
-        "id_curso": 8,
+        "id": 8,
         "titulo": "Programación en Python",
         "descripcion": "Aprende a programar en Python desde cero con este curso completo.",
         "maestro_id": 4,
-        "precio": 30
+        "precio": 30,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Python"
     },
     {
-        "id_curso": 9,
+        "id": 9,
         "titulo": "Estructuras de Datos",
         "descripcion": "Curso detallado sobre las diferentes estructuras de datos utilizadas en la programación.",
         "maestro_id": 4,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Estructuras+de+Datos"
     },
     {
-        "id_curso": 10,
+        "id": 10,
         "titulo": "Bases de Datos SQL",
         "descripcion": "Aprende a manejar bases de datos SQL y realizar consultas eficientes.",
         "maestro_id": 4,
-        "precio": 30
+        "precio": 30,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Bases+de+Datos+SQL"
     },
     {
-        "id_curso": 11,
+        "id": 11,
         "titulo": "Inglés para Principiantes",
         "descripcion": "Curso básico de inglés para aquellos que están comenzando a aprender el idioma.",
         "maestro_id": 5,
-        "precio": 20
+        "precio": 20,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Inglés+para+Principiantes"
     },
     {
-        "id_curso": 12,
+        "id": 12,
         "titulo": "Conversación en Inglés",
         "descripcion": "Mejora tus habilidades de conversación en inglés con este curso práctico.",
         "maestro_id": 5,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Conversación+en+Inglés"
     },
     {
-        "id_curso": 13,
+        "id": 13,
         "titulo": "Francés Básico",
         "descripcion": "Curso introductorio para aprender los conceptos básicos del francés.",
         "maestro_id": 5,
-        "precio": 15
+        "precio": 15,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Francés+Básico"
     },
     {
-        "id_curso": 14,
+        "id": 14,
         "titulo": "Francés Intermedio",
         "descripcion": "Curso intermedio de francés para aquellos que quieren mejorar su nivel.",
         "maestro_id": 5,
-        "precio": 20
+        "precio": 20,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Francés+Intermedio"
     },
     {
-        "id_curso": 15,
+        "id": 15,
         "titulo": "Física Avanzada",
         "descripcion": "Curso avanzado para profundizar en los conceptos de la física.",
         "maestro_id": 1,
-        "precio": 30
+        "precio": 30,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Física+Avanzada"
     },
     {
-        "id_curso": 16,
+        "id": 16,
         "titulo": "Diseño Gráfico con Illustrator",
         "descripcion": "Domina Adobe Illustrator para crear diseños vectoriales profesionales.",
         "maestro_id": 2,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Adobe+Illustrator"
     },
     {
-        "id_curso": 17,
+        "id": 17,
         "titulo": "Química Inorgánica",
         "descripcion": "Explora los principios de la química inorgánica en este curso detallado.",
         "maestro_id": 3,
-        "precio": 20
+        "precio": 20,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Química+Inorgánica"
     },
     {
-        "id_curso": 18,
+        "id": 18,
         "titulo": "Biología Molecular",
         "descripcion": "Comprende los fundamentos de la biología molecular y sus aplicaciones.",
         "maestro_id": 3,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Biología+Molecular"
     },
     {
-        "id_curso": 19,
+        "id": 19,
         "titulo": "Desarrollo Web con HTML y CSS",
         "descripcion": "Aprende a crear sitios web atractivos utilizando HTML y CSS.",
         "maestro_id": 4,
-        "precio": 25
+        "precio": 25,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=HTML+CSS"
     },
     {
-        "id_curso": 20,
+        "id": 20,
         "titulo": "Programación Orientada a Objetos con Java",
         "descripcion": "Curso avanzado de programación orientada a objetos utilizando Java.",
         "maestro_id": 4,
-        "precio": 30
+        "precio": 30,
+        "imageUrl": "https://via.placeholder.com/150/18233A/FFFFFF?text=Java+OOP"
     }
 ]

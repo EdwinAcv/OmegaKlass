@@ -1,13 +1,8 @@
-export interface CourseCardProps {
-  title: string;
-  description: string;
-  imageUrl?: string;
-  onMoreDetails: () => void;
-}
-
-export interface Course {
-  title: string;
-  description: string;
-  imageUrl?: string;
-  onMoreDetails: () => void;
+export interface Cursos {
+  id:    number;
+  titulo:      string;
+  descripcion: string;
+  maestro_id:  number;
+  precio:      number;
+  imageUrl?:   string;
 }
