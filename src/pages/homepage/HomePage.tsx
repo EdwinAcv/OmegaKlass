@@ -8,12 +8,7 @@ export const HomePage = () => {
 
       <Header/> 
 
-      <Button
-        color="secondary"
-        variant="contained"
-      >
-        Click Me
-      </Button>
+   
 
     </Grid>
   )

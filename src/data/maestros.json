@@ -3,50 +3,55 @@
         "id": 1,
         "nombre": "Juan",
         "apellido": "Perez",
-        "imagen": "src/assets/maestros/juan-perez.jpg",
         "materia": ["Matematicas", "Fisica"],
+        "profesion": "Profesor de Matemáticas y Física",
         "sub_abilidades": ["Matemáticas Básicas", "Física para Principiantes", "Álgebra Avanzada", "Física Avanzada"],
         "descipcion": "Especializado en el campo de las matemáticas y física, y llevo más de una década ayudando a los estudiantes a dominar estas materias. Mi enfoque se centra en hacer que los conceptos complejos sean accesibles y comprensibles para todos.",
-        "tutorias": true
+        "tutorias": true,
+        "imagen": "../../../assets/homepage/profesores/1.jpg"
     },
     {
         "id": 2,
         "nombre": "Maria",
         "apellido": "Gomez",
-        "imagen": "src/assets/maestros/maria-gomez.jpg",
+        "profesion": "Diseñadora Gráfica",
         "materia": ["Diseño grafico"],
-        "sub_abilidades": ["Diseño Gráfico con Adobe Photoshop", "Diseño de Logotipos", "Diseño Gráfico con Illustrator"],
+        "sub_abilidades": ["Diseño con Adobe Photoshop", "Diseño de Logotipos", "Diseño Gráfico con Illustrator"],
         "descipcion": "Soy experta en diseño gráfico con cinco años de experiencia. Mi pasión es guiar a los estudiantes para que descubran y desarrollen su propio estilo artístico utilizando las herramientas más modernas del diseño digital.",
-        "tutorias": true
+        "tutorias": true,
+        "imagen": "../../../assets/homepage/profesores/2.jpeg"
     },
     {
         "id": 3,
         "nombre": "Pedro",
         "apellido": "Gonzalez",
-        "imagen": "src/assets/maestros/pedro-gonzalez.jpg",
+        "profesion": "Profesor de Química y Biología",
         "materia": ["Quimica", "Biologia"],
         "sub_abilidades": ["Química Orgánica", "Biología Celular", "Química Inorgánica", "Biología Molecular"],
         "descipcion": "Dedico mi tiempo a la enseñanza de química y biología, con ocho años de experiencia en el campo. Me esfuerzo por inspirar a mis estudiantes a explorar el mundo de las ciencias naturales y entender los procesos que rigen la vida.",
-        "tutorias": false
+        "tutorias": false,
+        "imagen": "../../../assets/homepage/profesores/3.jpg"
     },
     {
         "id": 4,
         "nombre": "Luis",
         "apellido": "Garcia",
-        "imagen": "src/assets/maestros/luis-garcia.jpg",
+        "profesion": "Ingeniero de Software",
         "materia": ["Progamacion", "Estructura de datos", "Base de datos"],
         "sub_abilidades": ["Programación en Python", "Estructuras de Datos", "Bases de Datos SQL", "Desarrollo Web con HTML y CSS", "Programación Orientada a Objetos con Java"],
         "descipcion": "Con seis años de experiencia, enseño programación, estructura de datos y bases de datos. Me apasiona transmitir conocimientos técnicos y prácticos que preparen a los estudiantes para el mundo profesional en el ámbito de la informática.",
-        "tutorias": true
+        "tutorias": true,
+        "imagen": ""
     },
     {
         "id": 5,
         "nombre": "Ana",
         "apellido": "Martinez",
-        "imagen": "src/assets/maestros/ana-martinez.jpg",
+        "profesion": "Profesora de Idiomas",
         "materia": ["Ingles", "Frances"],
         "sub_abilidades": ["Inglés para Principiantes", "Conversación en Inglés", "Francés Básico", "Francés Intermedio"],
         "descipcion": "Soy maestra de inglés y francés, con siete años dedicados a la enseñanza de idiomas. Mi objetivo es facilitar el aprendizaje de nuevas lenguas mediante métodos interactivos y culturales, para que mis estudiantes se sientan cómodos y confiados al comunicarse en otro idioma.",
-        "tutorias": true
+        "tutorias": true,
+        "imagen": ""
     }
 ]
