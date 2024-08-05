@@ -5,6 +5,7 @@ import { Cursos } from "../../../interfaces/cursos";
 import useGetSingleRecordById from "../../../hooks/get-one-data";
 import useFetchJson from '../../../hooks/get-data';
 import { Maestro } from '../../../interfaces/maestros';
+import PageTransition from '../../../components/pageTransition';
 
 export const DetalleCursoPage = () => {
   const { id = 0 } = useParams<{ id: string }>();
@@ -16,9 +17,9 @@ export const DetalleCursoPage = () => {
   if (!data) return <p>No data found</p>;
 
   return (
-    <>
+    <PageTransition>
       <CourseDetailPage course={data} />
-    </>
+    </PageTransition>
   );
 };
 
