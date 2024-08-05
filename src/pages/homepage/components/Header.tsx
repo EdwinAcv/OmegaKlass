@@ -17,7 +17,7 @@ export const Header = () => {
 
     let maestros = data as ICardProfesor[]
     const listaTutoria = [
-        {text:'Busca tu profesor que prefieras.', icon:'fa-magnifying-glass'},
+        {text:'Busca tu profesor que preferido.', icon:'fa-magnifying-glass'},
         {text:'Agenda el día y la hora.', icon:'fa-calendar'},
         {text:'Selecciona el tema de interés.', icon:'fa-circle-check'},
     ]
@@ -51,10 +51,10 @@ export const Header = () => {
 
                         <Typography sx={{
                             fontSize: '2.5rem', 
-                            fontWeight: 'bold',
-                            WebkitTextStroke: '2.5px #4364A5',
-                            // WebkitTextStroke: `2.5px ${mainThemes.palette.primary.main}`,
-                            // color: mainThemes.palette.primary.main,
+                            // fontWeight: 'bold',
+                            // WebkitTextStroke: '2.5px #4364A5',
+                            WebkitTextStroke: `2.5px ${mainThemes.palette.primary.dark}`,
+                            // color: mainThemes.palette.primary.dark,
                             lineHeight: 1.0
                         }}>
                         Una mejor alternativa para la educación en línea.
@@ -64,6 +64,7 @@ export const Header = () => {
                             fontSize: '1.5rem', 
                             // fontWeight: 'bold',
                             // WebkitTextStroke: '1.5px black',
+                            fontFamily: "cursive",
                             lineHeight: 1.3
                         }}>
                         En los últimos años, se ha observado una creciente tendencia hacia el uso de plataformas de servicios en línea en diversos sectores. Este cambio de paradigma ha sido impulsado por la digitalización y la globalización, que han transformado la manera en que las personas acceden y consumen servicios.
@@ -187,7 +188,7 @@ export const Header = () => {
                             color: mainThemes.palette.primary.dark,
                         }}
                     >
-                        Solicita tutorías personalizadas con profesor que prefieras.
+                        Solicita tutorías personalizadas con el profesor que prefieras.
                     </Typography>
                     <Grid
                         sx={{
