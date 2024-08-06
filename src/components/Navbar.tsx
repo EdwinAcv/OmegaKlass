@@ -12,6 +12,9 @@ import MenuItem from '@mui/material/MenuItem';
 import { Grid, TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
+import omegaklass from '../assets/marca/OmegaKlass.png';
+// import { mainThemes } from '../themes';
+
 interface IPages {
   page: string;
 
@@ -69,7 +72,7 @@ export function Navbar() {
       <Grid className='maxWidth' sx={{ width: '100%' }}>
         <Toolbar disableGutters>
 
-          <Typography
+          {/* <Typography
             onClick={()=> navergar('home')}
             variant="h6"
             noWrap
@@ -87,8 +90,26 @@ export function Navbar() {
             }}
           >
             OmegaKlass
-          </Typography>
-
+          </Typography> */}
+          <Grid>
+            <Box
+              component="img"
+              src={omegaklass}
+              alt="logo"
+              onClick={() => navergar('home')}
+              sx={{
+                height: '50px',
+                width: '180px',
+                margin: '0 20px',
+                transition: 'all 0.3s ease',
+                '&:hover': {
+                  cursor: 'pointer',
+                  transform: 'scale(1.02)',
+                  filter: `drop-shadow(0 0 0.75rem #18233A)`,
+                },
+              }}
+            />
+          </Grid>
           {/* Moblile or table */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton

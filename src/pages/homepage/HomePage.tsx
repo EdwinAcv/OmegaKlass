@@ -1,10 +1,14 @@
-import { Button, Grid } from "@mui/material"
+import { Grid } from "@mui/material"
 import { Header } from "./components/Header"
 
 export const HomePage = () => {
 
   return (
-    <Grid>
+    <Grid
+      sx={{
+        minHeight: '120vh',
+      }}
+    >
 
       <Header/> 
 

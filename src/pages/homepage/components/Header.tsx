@@ -28,7 +28,7 @@ export const Header = () => {
         <Grid
             sx={{
                 bgcolor: mainThemes.palette.primary.light,
-                width: '100vw',
+                width: '100%',
             }}
         >
             <Grid container className="maxWidth" sx={{ display: 'flex', flexDirection: 'row', py: '70px'  }}>
@@ -79,7 +79,7 @@ export const Header = () => {
         <Grid
             sx={{
                 // bgcolor: mainThemes.palette.primary.light,
-                width: '100vw',
+                width: '100%',
                 py: '150px',
             }}
         >
@@ -138,7 +138,7 @@ export const Header = () => {
         <Grid
             sx={{
                 // bgcolor: mainThemes.palette.primary.light,
-                width: '100vw',
+                width: '100%',
                 py: '150px',
             }}
         >
@@ -253,7 +253,7 @@ export const Header = () => {
         <Grid
             sx={{
                 bgcolor: mainThemes.palette.primary.light,
-                width: '100vw',
+                width: '100%',
                 py: '50px',
             }}
         >
@@ -297,7 +297,7 @@ export const Header = () => {
         <Grid
             sx={{
                 // bgcolor: mainThemes.palette.primary.light,
-                width: '100vw',
+                width: '100%',
                 py: '150px',
             }}
         >
