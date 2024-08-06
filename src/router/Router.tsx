@@ -11,6 +11,7 @@ import { PerfilEstudiantePage } from '../pages/estudiante/PerfilEstudiantePage'
 import { DetalleCursoPage } from '../pages/cursos/detalle-curso/detalle-curso'
 import PageTransition from '../components/pageTransition'
 import {  } from 'react-router-dom'
+import { CursoAsignado } from '../pages/estudiante/curso/cursoAsignado'
 
 export const Router = () => {
 
@@ -34,6 +35,7 @@ export const Router = () => {
               <Route path="/cursos" element={<PageTransition><CursosPage /></PageTransition>} />
               <Route path="/cursos/:id" element={<PageTransition><DetalleCursoPage /></PageTransition>} />
               <Route path="/perfil_estudiante" element={<PageTransition><PerfilEstudiantePage/></PageTransition>} />
+              <Route path="/estudiante/curso/:id" element={<CursoAsignado/>} />
               {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
 
               {/*
