@@ -15,7 +15,7 @@ const studentInfo = {
 export const PerfilEstudiantePage = () => {
     return (
       <PageTransition>
-      <Container sx={{ marginTop: 4 }}>
+      <Container sx={{ marginTop: 4, marginBottom:4 }}>
         <Grid container spacing={2}>
           {/* Columna para el Sidebar y CursosAsignados */}
           <Grid item xs={12} md={3}>

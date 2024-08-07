@@ -15,6 +15,7 @@ import useFetchJson from "../../../hooks/get-data";
 import { Maestro } from "../../../interfaces/maestros";
 import PageTransition from "../../../components/pageTransition";
 import CourseVideos from "../curso-videos/curso-video";
+import { Link } from "react-router-dom";
 
 export const DetalleCursoPage = () => {
   const { id = 0 } = useParams<{ id: string }>();
@@ -41,7 +42,7 @@ const CourseDetailPage: React.FC<{ course: Cursos }> = ({ course }) => {
   const maestro = data?.find((maestro) => maestro.id === course.maestro_id);
   const navigate = useNavigate();
   return (
-    <Container maxWidth="md" sx={{ marginTop: 4 }}>
+    <Container maxWidth="md" sx={{ marginTop: 4, marginBottom:4 }}>
       <Button variant="contained" color="primary" onClick={() => navigate(-1)} sx={{ marginBottom: 2 }}>
         Volver
       </Button>
@@ -72,7 +73,8 @@ const CourseDetailPage: React.FC<{ course: Cursos }> = ({ course }) => {
             {course.descripcion}
           </Typography>
           <Typography variant="body2" color="text.primary">
-            Impartido por: {`${maestro?.nombre} ${maestro?.apellido}`}
+            Profesor <br />
+            <Link to={`/profesores`} color="inherit">{`${maestro?.nombre} ${maestro?.apellido}`}</Link>
           </Typography>
           <Typography variant="h6" color="text.primary">
             Precio: ${course.precio}

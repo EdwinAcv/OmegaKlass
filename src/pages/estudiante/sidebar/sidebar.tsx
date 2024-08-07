@@ -7,6 +7,7 @@ import {
   Paper,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { mainThemes } from "../../../themes";
 
 interface SidebarProps {
   name: string;
@@ -57,6 +58,13 @@ export const CursosAsignados = ({ courses }: props2) => {
       <List>
         {courses.map((course) => (
           <ListItemButton
+          sx={{
+            '&:hover': {
+              borderRadius: '8px',
+              backgroundColor: mainThemes.palette.primary.main,
+              color: 'white' // Utilizar el color primario del tema
+            },
+          }}
             onClick={() => handleCourseClick(course.id)}
             key={course.id}
           >
