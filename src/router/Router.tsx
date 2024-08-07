@@ -12,6 +12,7 @@ import { DetalleCursoPage } from '../pages/cursos/detalle-curso/detalle-curso'
 import PageTransition from '../components/pageTransition'
 import {  } from 'react-router-dom'
 import { CursoAsignado } from '../pages/estudiante/curso/cursoAsignado'
+import { ProfesorPerfilPage } from '../pages/profesores/ProfesorPerfilPage'
 
 export const Router = () => {
 
@@ -47,7 +48,7 @@ export const Router = () => {
               {/* George */}
               <Route path="/profesores" element={<ProfesoresPage />} />
               <Route path="/perfilmaestro" element={<CursosPage />} />
-              <Route path="/profesores" element={<ProfesoresPage />} />
+              <Route path="/profesores/perfil/:id" element={<ProfesorPerfilPage />} />
               {/*
                 Se deben ver los curos que tiene el profesor y poder filtrar/paginar
                 Debe tener un parte para agendar las tutorias en caso de que el profesor permita tutorias
