@@ -13,7 +13,7 @@ export const PlanesCard = ( { plan=1 }: {plan: number} ) => {
                 { ability: true, adv: "Contenido profesional"},
                 { ability: true, adv: "cursos ilimitados"},
                 { ability: false, adv: "Acceso a la comunidad"},
-                { ability: false, adv: "2 tutorias gratis al mes al mes (Max 2h)"},
+                { ability: false, adv: "4 tutorias gratis al mes (Max 2h)"},
             ]
         },
         {
@@ -27,7 +27,7 @@ export const PlanesCard = ( { plan=1 }: {plan: number} ) => {
                 { ability: true, adv: "Contenido profesional"},
                 { ability: true, adv: "cursos ilimitados"},
                 { ability: true, adv: "Acceso a la comunidad"},
-                { ability: true, adv: "4 tutorias gratis al mes al mes (Max 2h)"},
+                { ability: true, adv: "4 tutorias gratis al mes (Max 2h)"},
             ]
         },
         {
@@ -41,7 +41,7 @@ export const PlanesCard = ( { plan=1 }: {plan: number} ) => {
                 { ability: true, adv: "Contenido profesional"},
                 { ability: true, adv: "cursos ilimitados"},
                 { ability: true, adv: "Acceso a la comunidad"},
-                { ability: true, adv: "6 tutorias gratis al mes al mes (Max 4h)"},
+                { ability: true, adv: "6 tutorias gratis al mes (Max 4h)"},
             ]
         }
     ]

@@ -9,7 +9,7 @@ import { ICardProfesor } from "../../../utils/interfaces"
 import educacion from '../../../assets/homepage/libros.png'
 import tutoria from '../../../assets/homepage/saludando-pantalla.png'
 import { PlanesCard } from "./PlanesCard"
-import { Carousel } from "./Carousel"
+// import { Carousel } from "./Carousel"
 
 
 
@@ -314,13 +314,30 @@ export const Header = () => {
                 <Grid>
 
                     <Grid>
-                        
                         <Grid>
-
-                    <Carousel />
+                            <Typography 
+                                variant="h1"
+                                sx={{
+                                    textAlign: 'center',
+                                    fontSize: '45px',
+                                    fontWeight: 'bold',
+                                    pb: '20px',
+                                    color: mainThemes.palette.primary.dark,
+                                }}
+                            >
+                                Nuestros planes
+                            </Typography>
                         </Grid>
+                        
+                        <Grid className="grid gap-8 grid-cols-3">
+
+                            <PlanesCard plan={0}/>
+                            <PlanesCard plan={1}/>
+                            <PlanesCard plan={2}/>
+                    {/* <Carousel /> */}
+                        </Grid>
+                       
                     </Grid>
-                    {/* <PlanesCard/> */}
                 </Grid>
             </Grid>
         </Grid>
