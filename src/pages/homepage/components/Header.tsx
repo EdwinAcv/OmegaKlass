@@ -8,6 +8,8 @@ import { ICardProfesor } from "../../../utils/interfaces"
 
 import educacion from '../../../assets/homepage/libros.png'
 import tutoria from '../../../assets/homepage/saludando-pantalla.png'
+import { PlanesCard } from "./PlanesCard"
+import { Carousel } from "./Carousel"
 
 
 
@@ -294,7 +296,36 @@ export const Header = () => {
             </Grid>
         </Grid>
 
+        {/* planes */}
         <Grid
+            sx={{
+                // bgcolor: mainThemes.palette.primary.light,
+                width: '100%',
+                py: '100px',
+            }}
+        >
+            <Grid
+                className="maxWidth"
+                sx={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                }}
+            >
+                <Grid>
+
+                    <Grid>
+                        
+                        <Grid>
+
+                    <Carousel />
+                        </Grid>
+                    </Grid>
+                    {/* <PlanesCard/> */}
+                </Grid>
+            </Grid>
+        </Grid>
+
+        {/* <Grid
             sx={{
                 // bgcolor: mainThemes.palette.primary.light,
                 width: '100%',
@@ -311,7 +342,7 @@ export const Header = () => {
                 
 
             </Grid>
-        </Grid>
+        </Grid> */}
     </>
   )
 }
