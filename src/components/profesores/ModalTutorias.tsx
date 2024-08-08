@@ -26,34 +26,34 @@ export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutori
 
 
 
-    const handleSave = () => {
-      fetch('../../src/data/tutorias_maestro.json')
-        .then(response => response.json())
-        .then(data => {
-          // Buscamos el maestro con el id proporcionado
-          const maestro = data.find((m: any) => m.maestro_id === maestroId);
+//     const handleSave = () => {
+//       fetch('../../src/data/tutorias_maestro.json')
+//         .then(response => response.json())
+//         .then(data => {
+//           // Buscamos el maestro con el id proporcionado
+//           const maestro = data.find((m: any) => m.maestro_id === maestroId);
     
-          if (maestro) {
-            // Buscamos la fecha con el día proporcionado
-            const fecha = maestro.fechas.find((f: any) => f.dia === currentDay);
+//           if (maestro) {
+//             // Buscamos la fecha con el día proporcionado
+//             const fecha = maestro.fechas.find((f: any) => f.dia === currentDay);
     
-            if (fecha) {
+//             if (fecha) {
 
-              const newObject = {
-                ...hora[0],
-                descripcion: description,
-                disponible: 0
-s
-              }
+//               const newObject = {
+//                 ...hora[0],
+//                 descripcion: description,
+//                 disponible: 0
+// s
+//               }
 
-              Object.assign(fecha, newObject);
+//               Object.assign(fecha, newObject);
 
-              handleModal();
-            }
-          }
-        })
-        .catch(error => console.error('Error:', error));
-    };
+//               handleModal();
+//             }
+//           }
+//         })
+//         .catch(error => console.error('Error:', error));
+//     };
 
     const handleJitsi = () => {
       const conferenceName = 'tutoria?maestro=' + `${maestroId}?` + `hora=${hora[0].id_hora}`; 
@@ -91,7 +91,7 @@ s
         </div>
         <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
         {hora[0].disponible === 0 ? <button type="button" onClick={() => handleJitsi()} className="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 sm:ml-3 sm:w-auto">Ver Conferencia</button>: null}
-          <button type="button" onClick={() => handleSave()} className="inline-flex w-full justify-center rounded-md bg-green-500  px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 sm:ml-3 sm:w-auto">{hora[0].disponible === 0 ? 'Actualizar' :'Guardar'}</button>
+          <button type="button" onClick={() => handleModal()} className="inline-flex w-full justify-center rounded-md bg-green-500  px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 sm:ml-3 sm:w-auto">{hora[0].disponible === 0 ? 'Actualizar' :'Guardar'}</button>
           <button type="button" onClick={() => handleModal()} className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto">Cancelar</button>
         </div>
       </div>
