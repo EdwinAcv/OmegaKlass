@@ -33,7 +33,7 @@ export const CursosPage = () => {
       </div>
       {filteredCourses.length === 0 ? (
         <Typography variant="body1" component="body" align="center" gutterBottom>
-          Cursos disponibles
+           Cursos no encontrados
         </Typography>
       ) : (
         <CourseList courses={filteredCourses} />

@@ -1,24 +1,22 @@
-import { Container } from "@mui/material"
-import { Navbar } from "../components/Navbar"
-import { AppTheme } from "../themes"
-import { Footer } from "../components/Footer"
+import { Container } from "@mui/material";
+import { Navbar } from "../components/Navbar";
+import { AppTheme } from "../themes";
+import { Footer } from "../components/Footer";
 
-export const MainLayout = ( { children }: { children: React.ReactNode } ) => {
+export const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
-       <AppTheme>
-          <Navbar />
-       </AppTheme>
+    <div className="flex flex-col min-h-screen">
+      <AppTheme>
+        <Navbar />
+      </AppTheme>
 
-        {/* <Container >  */}
-            { children }
-        {/* </Container> */}
-      
-       <AppTheme>
-          <Footer />
-       </AppTheme>
-    </>
-  )
-}
+      {/* <Container >  */}
+      <div className="flex-grow">{children}</div>
+      {/* </Container> */}
 
-
+      <AppTheme>
+        <Footer />
+      </AppTheme>
+    </div>
+  );
+};
