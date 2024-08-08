@@ -21,7 +21,7 @@ export const PlanesCard = ( { plan=1 }: {plan: number} ) => {
             title: "Premium",
             type: "Anual",
             price: "RD$ 3,065/mes",
-            contant: 'Cobro anual recurrente',
+            contant: 'Cobro anual recurrente RD$: ' + (3065 * 12).toLocaleString('en-US') ,
             description: "Para 2 estudiante",
             advantages: [
                 { ability: true, adv: "Contenido profesional"},
@@ -35,7 +35,7 @@ export const PlanesCard = ( { plan=1 }: {plan: number} ) => {
             title: "Pro",
             type: "Anual",
             price: "RD$ 3,700/mes",
-            contant: 'Cobro anual recurrente',
+            contant: 'Cobro anual recurrente RD$: ' + (3700 * 12).toLocaleString('en-US'),
             description: "Max 5 estudiante",
             advantages: [
                 { ability: true, adv: "Contenido profesional"},

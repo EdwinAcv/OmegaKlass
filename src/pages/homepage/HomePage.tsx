@@ -1,20 +1,24 @@
-import { Grid } from "@mui/material"
+import { Fade, Grid } from "@mui/material"
 import { Header } from "./components/Header"
 
 export const HomePage = () => {
 
   return (
-    <Grid
-      sx={{
-        minHeight: '120vh',
-      }}
-    >
+    <Fade in={true} timeout={1000}>
 
-      <Header/> 
+      <Grid
+        sx={{
+          minHeight: '120vh',
+        }}
+      >
+      <Grid className="min-h-[120vh]">
 
-   
+        <Header/> 
+      </Grid>
 
-    </Grid>
+    
+      </Grid>
+    </Fade>
   )
 }
 

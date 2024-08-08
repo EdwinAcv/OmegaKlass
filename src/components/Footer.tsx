@@ -49,6 +49,7 @@ export const Footer = () => {
                         justifyContent: 'space-between',
                         mb: '20px',
                     }}
+                    container spacing={2}
                 >
 
                     {/* imagen */}
@@ -58,7 +59,10 @@ export const Footer = () => {
                             component="img"
                             src={logo}
                             alt="logo"
-                            onClick={() => navergar('home')}
+                            onClick={() => {
+                                navergar('home')
+                                window.scrollTo(0, 0)
+                            }}
                             sx={{
                                 height: '150px',
                                 margin: '0 20px',

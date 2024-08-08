@@ -1,10 +1,13 @@
 import { Button, Grid, Typography } from "@mui/material"
 import { mainThemes } from "../../../themes"
 import { ICardProfesor } from "../../../utils/interfaces";
+import { useNavigate } from "react-router-dom";
 
 
 
-export const TeacherCard = ( { nombre, apellido, profesion, descipcion, sub_abilidades, imagen }: ICardProfesor ) => {
+export const TeacherCard = ( { id, nombre, apellido, profesion, descipcion, sub_abilidades, imagen }: ICardProfesor ) => {
+
+    const navigate = useNavigate();
 
     const hexToRgba = (hex: string, alpha: number) => {
         const r = parseInt(hex.slice(1, 3), 16);
@@ -132,6 +135,7 @@ export const TeacherCard = ( { nombre, apellido, profesion, descipcion, sub_abil
             {
                 sub_abilidades.map((item, index) =>{
                     if(index < 2)return <Grid
+                        key={index}
                         sx={{
                             bgcolor: hexToRgba(mainThemes.palette.primary.light,.5),
                             textAlign:'left',
@@ -151,6 +155,10 @@ export const TeacherCard = ( { nombre, apellido, profesion, descipcion, sub_abil
         >
             <Button
                 variant="outlined"
+                onClick={() => {
+                    navigate(`/profesores/perfil/${id}`, {replace: true}) ;
+                    window.scrollTo(0, 0);
+                }}
                 sx={{ 
                     color: 'white',
                     fontWeight: 'bold',

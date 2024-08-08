@@ -30,7 +30,7 @@ const pages: IPages[] = [
 
 
 
-const settings = ['Perfil', 'Dashboard', 'Cerrar session'];
+const settings = ['Perfil',  'Cerrar session'];
 
 export function Navbar() {
 
@@ -70,26 +70,6 @@ export function Navbar() {
     <AppBar position="static">
       <Grid className='maxWidth' sx={{ width: '100%' }}>
         <Toolbar disableGutters>
-
-          {/* <Typography
-            onClick={()=> navergar('home')}
-            variant="h6"
-            noWrap
-            component="a"
-            
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-              cursor: 'pointer',
-            }}
-          >
-            OmegaKlass
-          </Typography> */}
           <Grid>
             <Box
               component="img"
@@ -141,7 +121,15 @@ export function Navbar() {
               }}
             >
               {pages.map(( {page} ) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page} 
+                    onClick={() => {
+                      if( page === 'planes' ){
+                        page = 'home'
+                        document.getElementById('planes')?.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    navergar(page)
+                  }}
+                >
                   <Typography className='main-font' textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -149,7 +137,7 @@ export function Navbar() {
           </Box>
 
 
-          <Typography
+          {/* <Typography
             variant="h5"
             noWrap
             component="a"
@@ -166,12 +154,18 @@ export function Navbar() {
             }}
           >
             LOGO
-          </Typography>
+          </Typography> */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, fontFamily: 'Raleway !imortant' }}>
             {pages.map(({page}) => (
               <Button
                 key={page}
-                onClick={() => navergar(page)}
+                onClick={() => {
+                    if( page === 'planes' ){
+                      page = 'home'
+                      document.getElementById('planes')?.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  navergar(page)
+                }}
                 variant="contained" 
                 
                 sx={{ 
@@ -188,7 +182,8 @@ export function Navbar() {
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 1 }} >
+          <Grid className='flex flex-col'>
+          <Box sx={{ mr: '20px' }} >
             <TextField
               sx={{ bgcolor: 'white', borderRadius: '8px' }}
               name="search"
@@ -197,35 +192,37 @@ export function Navbar() {
               size="small"
             />
           </Box>
-          <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" sx={{ bgcolor: 'primary.light' }} src="/static/images/avatar/2.jpg" />
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={() => navergar(setting)}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
+            <Box sx={{ flexGrow: 0 }}>
+              
+              <Tooltip title="Open settings">
+                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                  <Avatar alt="Remy Sharp" sx={{ bgcolor: 'primary.light' }} src="/static/images/avatar/2.jpg" />
+                </IconButton>
+              </Tooltip>
+              <Menu
+                sx={{ mt: '45px' }}
+                id="menu-appbar"
+                anchorEl={anchorElUser}
+                anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                keepMounted
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                open={Boolean(anchorElUser)}
+                onClose={handleCloseUserMenu}
+              >
+                {settings.map((setting) => (
+                  <MenuItem key={setting} onClick={() => navergar(setting)}>
+                    <Typography textAlign="center">{setting}</Typography>
+                  </MenuItem>
+                ))}
+              </Menu>
+            </Box>
+          </Grid>
         </Toolbar>
       </Grid>
     </AppBar>

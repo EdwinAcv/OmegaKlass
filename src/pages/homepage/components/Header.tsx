@@ -9,13 +9,14 @@ import { ICardProfesor } from "../../../utils/interfaces"
 import educacion from '../../../assets/homepage/libros.png'
 import tutoria from '../../../assets/homepage/saludando-pantalla.png'
 import { PlanesCard } from "./PlanesCard"
+import { useNavigate } from "react-router-dom"
 // import { Carousel } from "./Carousel"
 
 
 
 export const Header = () => {
 
-
+    const navigate = useNavigate();
 
     let maestros = data as ICardProfesor[]
     const listaTutoria = [
@@ -59,17 +60,16 @@ export const Header = () => {
                             // color: mainThemes.palette.primary.dark,
                             lineHeight: 1.0
                         }}>
-                        Una mejor alternativa para la educación en línea.
+                        Tu platafoma educativa en línea.
                         </Typography>
                         <Typography sx={{
                             mt: 2,
                             fontSize: '1.5rem', 
-                            // fontWeight: 'bold',
                             // WebkitTextStroke: '1.5px black',
-                            fontFamily: "cursive",
+                            // fontFamily: "cursive",
                             lineHeight: 1.3
                         }}>
-                        En los últimos años, se ha observado una creciente tendencia hacia el uso de plataformas de servicios en línea en diversos sectores. Este cambio de paradigma ha sido impulsado por la digitalización y la globalización, que han transformado la manera en que las personas acceden y consumen servicios.
+                            Descubre una experiencia de aprendizaje única con clases pregrabadas, sesiones en vivo, y tutorías personalizadas que te permitirán alcanzar tus metas académicas y profesionales. Únete a nosotros y transforma tu futuro.
                         </Typography>
 
                     </Grid>
@@ -82,7 +82,8 @@ export const Header = () => {
             sx={{
                 // bgcolor: mainThemes.palette.primary.light,
                 width: '100%',
-                py: '150px',
+                pt: '150px',
+                pb: '100px',
             }}
         >
             <Grid 
@@ -113,12 +114,10 @@ export const Header = () => {
                             variant="h6"
                             sx={{
                                 fontSize: '25px',
-                                // fontWeight: 'bold'
-                                fontFamily: 'cursive',
                                 textAlign: "justify"
                             }}
                         >
-                            Hay una creciente preferencia por la educación en línea debido a su flexibilidad y accesibilidad, Debido a esto se necesita permitir a los estudiantes acceder a los cursos desde cualquier lugar y en cualquier momento, adaptándose a sus horarios y ubicaciones.
+                            En OmegaKlass entendemos la importancia de la flexibilidad y la accesibilidad en la educación moderna. Por eso, ofrecemos una plataforma que permite a los estudiantes acceder a nuestros cursos desde cualquier lugar y en cualquier momento.
                         </Typography>
                     </Grid>
                 </Grid>
@@ -204,13 +203,11 @@ export const Header = () => {
                             variant="h6"
                             sx={{
                                 fontSize: '25px',
-                                // fontWeight: 'bold'
-                                fontFamily: 'cursive',
                                 textAlign: "justify",
                                 pb: '15px',
                             }}
                         >
-                            Hay una creciente demanda de apoyo adicional a través de tutorías personalizadas, esto con el fin de brindarle la facilidad al estudiante de poder agendar y llevar a cabo sesiones de tutoría de manera eficiente y efectiva, ofreciendo apoyo individualizado sobre un tema en cuestión.
+                            Reconocemos la creciente demanda de apoyo adicional a través de tutorías personalizadas. Nuestra plataforma te permite agendar y llevar a cabo sesiones de tutoría de manera eficiente y efectiva, brindándote el apoyo individualizado que necesitas para dominar cualquier tema.
                         </Typography>
                         <Grid
                             sx={{
@@ -225,7 +222,7 @@ export const Header = () => {
                                             variant="body2"
                                             sx={{ 
                                                 fontSize: '20px',
-                                                fontFamily: 'cursive',
+                                                // fontFamily: 'cursive',
                                                 color: mainThemes.palette.primary.dark,
                                             }} 
                                         >
@@ -239,6 +236,10 @@ export const Header = () => {
                         <Button
                             variant="contained"
                             color="primary"
+                            onClick={() => {
+                                navigate('/profesores', {replace: true}) ;
+                                window.scrollTo(0, 0);
+                            }}
                             sx={{
                                 fontWeight: 'bold',
                                 mt: '20px',
@@ -256,7 +257,8 @@ export const Header = () => {
             sx={{
                 bgcolor: mainThemes.palette.primary.light,
                 width: '100%',
-                py: '50px',
+                pt: '50px',
+                py: '70px',
             }}
         >
             <Grid
@@ -270,7 +272,7 @@ export const Header = () => {
                     sx={{
                         fontSize: '45px',
                         fontWeight: 'bold',
-                        pb: '20px',
+                        pb: '40px',
                         color: mainThemes.palette.primary.dark,
                     }}
                 >
@@ -278,12 +280,7 @@ export const Header = () => {
                 </Typography>
 
                 <Grid
-                    sx={{
-                        display: 'flex',
-                        flexDirection: 'row',
-                        justifyContent: 'center',
-                        gap: '20px',
-                    }}
+                    className="flex flex-wrap gap-4 justify-center items-center"
                 >
                     {
                         maestros.map((item) => {
@@ -298,10 +295,12 @@ export const Header = () => {
 
         {/* planes */}
         <Grid
+            id="planes"
             sx={{
                 // bgcolor: mainThemes.palette.primary.light,
                 width: '100%',
-                py: '100px',
+                pt: '80px',
+                pb: '100px',
             }}
         >
             <Grid
@@ -314,7 +313,7 @@ export const Header = () => {
                 <Grid>
 
                     <Grid>
-                        <Grid>
+                        <Grid className="mb-[50px]">
                             <Typography 
                                 variant="h1"
                                 sx={{
@@ -329,12 +328,12 @@ export const Header = () => {
                             </Typography>
                         </Grid>
                         
-                        <Grid className="grid gap-8 grid-cols-3">
+                        <Grid className="grid gap-8 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                        {/* <Grid className="grid gap-8 grid-cols-3"> */}
 
                             <PlanesCard plan={0}/>
                             <PlanesCard plan={1}/>
                             <PlanesCard plan={2}/>
-                    {/* <Carousel /> */}
                         </Grid>
                        
                     </Grid>
