@@ -21,7 +21,6 @@ interface IPages {
 }
 
 const pages: IPages[] = [
-  { page: 'explorar' },
   { page: 'cursos' },
   { page: 'profesores'},
   { page: 'planes'},
