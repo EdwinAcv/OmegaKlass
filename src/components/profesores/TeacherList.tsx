@@ -37,7 +37,7 @@ export const TeacherList: React.FC<TeacherListProps> = ({ teachers }) => {
   };
 
   return (
-    <div >
+    <div className='pb-20'>
       <div className="flex flex-col items-center pt-20">
         <input
           type="text"

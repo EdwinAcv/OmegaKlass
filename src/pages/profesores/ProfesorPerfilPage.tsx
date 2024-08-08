@@ -37,31 +37,62 @@ export const ProfesorPerfilPage = () => {
 
 
     return (
-        <div className='min-h-screen'>
+        <div className='min-h-screen bg-gray-100'>
 
             <div className="flex flex-col items-center p-6">
-                <div className="w-32 h-32 mb-4">
-                    <img
-                        src="https://via.placeholder.com/150/18233A/FFFFFF?text=Física+para+Principiantes"
-                        alt="Perfil del Profesor"
-                        className="w-full h-full rounded-full object-cover"
-                    />
-                </div>
-                <div className="text-center mb-6">
-                    <h1 className="text-2xl font-bold mb-2">{maestro.nombre + ' ' + maestro.apellido}</h1>
-                    <div className="max-w-md mx-auto">
-                        <p className="text-gray-600">{maestro.descipcion}</p>
+           
+            <div className="container mx-auto py-8">
+                <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
+                    <div className="col-span-4 sm:col-span-3">
+                        <div className="bg-white shadow rounded-lg p-6">
+                            <div className="flex flex-col items-center">
+                                <img src={maestro.imagen} alt={maestro.nombre} className="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0" />
+                                <h1 className="text-xl font-bold">{maestro.nombre} {maestro.apellido}</h1>
+                                <p className="text-gray-700">{maestro.profesion}</p>
+                                <div className="mt-6 flex flex-wrap gap-4 justify-center">
+                                    <a href="#" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Contact</a>
+                                    <a href="#" className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Resume</a>
+                                </div>
+                            </div>
+                            <hr className="my-6 border-t border-gray-300" />
+                            <div className="flex flex-col">
+                                <span className="text-gray-700 uppercase font-bold tracking-wider mb-2">Habilidades</span>
+                                <ul>
+                                    {maestro.sub_abilidades.map((habilidad, index) => (
+                                        <li key={index} className="mb-2">{habilidad}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div className="col-span-4 sm:col-span-9">
+                        <div className="bg-white shadow rounded-lg p-6">
+                            <h2 className="text-xl font-bold mb-4">Sobre mi</h2>
+                            <p className="text-gray-700">{maestro.descipcion}</p>
 
-                <div className="w-full max-w-md">
+                      
+
+                            {/* <h2 className="text-xl font-bold mt-6 mb-4">Experience</h2> */}
+                            {/* {maestro.experiencia.map((exp, index) => (
+                                <div key={index} className="mb-6">
+                                    <div className="flex justify-between flex-wrap gap-2 w-full">
+                                        <span className="text-gray-700 font-bold">Web Developer</span>
+                                        <p>
+                                            <span className="text-gray-700 mr-2">at {exp.empresa}</span>
+                                            <span className="text-gray-700">{exp.fecha}</span>
+                                        </p>
+                                    </div>
+                                    <p className="mt-2">
+                                        {exp.descripcion}
+                                    </p>
+                                </div>
+                            ))} */}
+                        </div>
+                        
+
+                        <div >
                     <div className="flex border-b">
-                    <button
-                            className={`flex-1 py-2 text-center ${activeTab === 'info' ? 'border-b-2 border-blue-500 text-blue-500' : 'text-gray-500'}`}
-                            onClick={() => setActiveTab('info')}
-                        >
-                            Info
-                        </button>
+                  
 
                         <button
                             className={`flex-1 py-2 text-center ${activeTab === 'cursos' ? 'border-b-2 border-blue-500 text-blue-500' : 'text-gray-500'}`}
@@ -111,14 +142,31 @@ export const ProfesorPerfilPage = () => {
                             <TutoriasCalendar id={maestroId} />
                         </div>
                     )}
-                    {activeTab === 'info' && (
-                        <div>
-                            <h2 className="text-xl font-bold mb-2">Info</h2>
-                            <p>Contenido del maestro.</p>
-
-                        </div>
-                    )}
+                
                 </div>
+                    </div>
+
+            
+                </div>
+            </div>
+{/* </div>
+
+    </div> */}
+                {/* <div className="w-32 h-32 mb-4">
+                    <img
+                        src="https://via.placeholder.com/150/18233A/FFFFFF?text=Física+para+Principiantes"
+                        alt="Perfil del Profesor"
+                        className="w-full h-full rounded-full object-cover"
+                    />
+                </div>
+                <div className="text-center mb-6">
+                    <h1 className="text-2xl font-bold mb-2">{maestro.nombre + ' ' + maestro.apellido}</h1>
+                    <div className="max-w-md mx-auto">
+                        <p className="text-gray-600">{maestro.descipcion}</p>
+                    </div>
+                </div> */}
+
+                
             </div>
         </div>
 

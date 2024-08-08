@@ -3,6 +3,7 @@ export interface Maestro {
     nombre:         string;
     apellido:       string;
     imagen?:        string;
+    profesion:      string;
     materia:        string[];
     sub_abilidades: string[];
     descipcion:     string;

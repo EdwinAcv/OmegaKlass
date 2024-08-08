@@ -6,17 +6,18 @@ interface TutoriasCalendarProps {
   id: number;
 }
 
-interface Tutorias {
+interface hora {
+  time: string;
+  event: string;
+  id_hora: number;
+  disponible: number;
+  descripcion: string;
+}
+ interface Tutorias {
   maestro_id: number;
   fechas: {
     dia: string;
-    horas: {
-      time: string;
-      event: string;
-      id_hora: number;
-      disponible: number;
-      descripcion: string;
-    }[];
+    horas: hora[];
   }[];
 }
 
@@ -26,6 +27,8 @@ export const TutoriasCalendar = ({ id }: TutoriasCalendarProps) => {
   );
 
   const [open, setOpen] = useState<boolean>(false);
+
+  const [horaState, setHoraState] = useState<hora[]>([]);
 
   const [currentTeacher, setCurrentTeacher] = useState<Tutorias | null>(null);
   const [currentDay, setCurrentDay] = useState<string>("");
@@ -67,7 +70,11 @@ export const TutoriasCalendar = ({ id }: TutoriasCalendarProps) => {
     }
   };
 
-  const handleModal = () => {
+  const handleModal = (hora?:hora) => {
+    if(hora){
+      setHoraState([hora])
+    }
+   
     setOpen(!open);
   }
 
@@ -128,7 +135,7 @@ export const TutoriasCalendar = ({ id }: TutoriasCalendarProps) => {
                     ?.horas.map((item, index) => (
                         <div
                         key={index}
-                        className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center"
+                        className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center justify-center "
                       >
                         <p className="w-32 text-lg font-normal sm:text-right shrink-0">
                           {item.time}
@@ -136,7 +143,7 @@ export const TutoriasCalendar = ({ id }: TutoriasCalendarProps) => {
                         <h3 className="text-lg font-semibold">
                           <a
                             href="#"
-                            onClick={handleModal}
+                            onClick={() => handleModal(item)}
                             className={`hover:underline ${item.disponible === 0 ? 'text-gray-500' : ''}`}
                           >
                          {`${item.event}`}
@@ -167,7 +174,7 @@ export const TutoriasCalendar = ({ id }: TutoriasCalendarProps) => {
           </>
         )}
 
-        {open && (<ModalTutorias setOpen={setOpen}/>)}
+        {open && (<ModalTutorias setOpen={setOpen} hora={horaState} currentDay={currentDay} maestroId={id}/>)}
       </div>
     </div>
   </section>
