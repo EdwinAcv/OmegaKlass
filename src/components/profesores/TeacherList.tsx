@@ -10,6 +10,7 @@ interface Teacher {
   sub_abilidades: string[];
   descipcion: string;
   tutorias: boolean;
+  imagenProfesor?: string;
 }
 
 interface TeacherListProps {
@@ -55,7 +56,7 @@ export const TeacherList: React.FC<TeacherListProps> = ({ teachers }) => {
               <div className="relative">
                 <p className="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">{teacher.tutorias ? 'Disponible para tutorías' : 'No disponible para tutorías'}</p>
               </div>
-              <img className="mt-4 h-48 w-full object-cover object-center" src={teacher.imagen || ''} alt={teacher.nombre} />
+              <img className="mt-4 h-48 w-full object-cover object-center" src={teacher.imagenProfesor || ''} alt={teacher.nombre} />
               <div className="flex flex-wrap gap-2">
                 {teacher.materia.map((materia, index) => (
                   <div key={index} className="center relative inline-block select-none whitespace-nowrap rounded-lg bg-blue-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">

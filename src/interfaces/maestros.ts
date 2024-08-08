@@ -8,4 +8,6 @@ export interface Maestro {
     sub_abilidades: string[];
     descipcion:     string;
     tutorias:       boolean;
+    imagenProfesor?: string;
+    imagenPerfil?:  string;
 }

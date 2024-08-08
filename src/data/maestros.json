@@ -30,7 +30,9 @@
         "sub_abilidades": ["Química Orgánica", "Biología Celular", "Química Inorgánica", "Biología Molecular"],
         "descipcion": "Dedico mi tiempo a la enseñanza de química y biología, con ocho años de experiencia en el campo. Me esfuerzo por inspirar a mis estudiantes a explorar el mundo de las ciencias naturales y entender los procesos que rigen la vida.",
         "tutorias": false,
-        "imagen": "../../../assets/homepage/profesores/3.jpg"
+        "imagen": "../../../assets/homepage/profesores/3.jpg",
+        "imagenProfesor": "src/assets/profesores/3.jpg",
+        "imagenPerfil":  "../../src/assets/profesores/3.jpg"
     },
     {
         "id": 4,

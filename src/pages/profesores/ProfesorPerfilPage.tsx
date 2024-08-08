@@ -22,6 +22,7 @@ export const ProfesorPerfilPage = () => {
     const maestro = maestros.find((m) => m.id === maestroId);
     const cursosFiltrados = cursos.filter((curso) => curso.maestro_id === maestroId);
 
+
     if (!maestro) {
         return <div  className='min-h-screen flex flex-col items-center p-6'
         >Maestro no encontrado</div>;
@@ -46,7 +47,7 @@ export const ProfesorPerfilPage = () => {
                     <div className="col-span-4 sm:col-span-3">
                         <div className="bg-white shadow rounded-lg p-6">
                             <div className="flex flex-col items-center">
-                                <img src={maestro.imagen} alt={maestro.nombre} className="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0" />
+                                <img src={maestro.imagenPerfil} alt={maestro.nombre} className="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0" />
                                 <h1 className="text-xl font-bold">{maestro.nombre} {maestro.apellido}</h1>
                                 <p className="text-gray-700">{maestro.profesion}</p>
                                 <div className="mt-6 flex flex-wrap gap-4 justify-center">

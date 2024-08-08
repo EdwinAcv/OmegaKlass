@@ -22,6 +22,7 @@ export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutori
 
     const handleInputChange = (event: { target: { value: SetStateAction<string>; }; }) => {
       setDescription(event.target.value);
+      console.log(currentDay)
     };
 
 
