@@ -1,0 +1,224 @@
+[
+ {
+        "maestro_id": 1,
+        "fechas": [
+
+            {
+            "dia": "10 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "Tutoria de algebra avanzada" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Disponible", "id_hora": 3, "disponible": 1, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Ocupado", "id_hora": 4, "disponible": 0, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Ocupado", "id_hora": 6, "disponible": 0, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Disponible", "id_hora": 7, "disponible": 1, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Ocupado", "id_hora": 10, "disponible": 0, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Disponible", "id_hora": 11, "disponible": 1, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 13, "disponible": 1, "descripcion": "" }
+            ]
+        },{
+            "dia": "11 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Disponible", "id_hora": 1, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 2, "disponible": 0, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Disponible", "id_hora": 3, "disponible": 1, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Ocupado", "id_hora": 4, "disponible": 0, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Disponible", "id_hora": 5, "disponible": 1, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Ocupado", "id_hora": 6, "disponible": 0, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Disponible", "id_hora": 7, "disponible": 1, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Ocupado", "id_hora": 8, "disponible": 0, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Disponible", "id_hora": 9, "disponible": 1, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Ocupado", "id_hora": 10, "disponible": 0, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Disponible", "id_hora": 11, "disponible": 1, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Ocupado", "id_hora": 12, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 13, "disponible": 1, "descripcion": "" }
+            ]
+        },
+
+            {
+            "dia": "12 de Agosto",
+                "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "13 de Agosto",
+           "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "14 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "15 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },{
+            "dia": "16 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+
+        {
+            "dia": "17 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "18 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "19 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "20 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        },
+        {
+            "dia": "21 de Agosto",
+            "horas": [
+              { "time": "08:00 - 09:00", "event": "Ocupado", "id_hora": 1, "disponible": 0, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Disponible", "id_hora": 2, "disponible": 1, "descripcion": "" },
+              { "time": "10:00 - 11:00", "event": "Ocupado", "id_hora": 3, "disponible": 0, "descripcion": "" },
+              { "time": "11:00 - 12:00", "event": "Disponible", "id_hora": 4, "disponible": 1, "descripcion": "" },
+              { "time": "12:00 - 01:00", "event": "Ocupado", "id_hora": 5, "disponible": 0, "descripcion": "" },
+              { "time": "01:00 - 02:00", "event": "Disponible", "id_hora": 6, "disponible": 1, "descripcion": "" },
+              { "time": "02:00 - 03:00", "event": "Ocupado", "id_hora": 7, "disponible": 0, "descripcion": "" },
+              { "time": "03:00 - 04:00", "event": "Disponible", "id_hora": 8, "disponible": 1, "descripcion": "" },
+              { "time": "04:00 - 05:00", "event": "Ocupado", "id_hora": 9, "disponible": 0, "descripcion": "" },
+              { "time": "05:00 - 06:00", "event": "Disponible", "id_hora": 10, "disponible": 1, "descripcion": "" },
+              { "time": "06:00 - 07:00", "event": "Ocupado", "id_hora": 11, "disponible": 0, "descripcion": "" },
+              { "time": "07:00 - 08:00", "event": "Disponible", "id_hora": 12, "disponible": 1, "descripcion": "" },
+              { "time": "09:00 - 10:00", "event": "Ocupado", "id_hora": 13, "disponible": 0, "descripcion": "" }
+            ]
+        }
+        ]
+    }
+]

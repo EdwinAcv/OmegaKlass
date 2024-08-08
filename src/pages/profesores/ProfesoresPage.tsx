@@ -8,7 +8,7 @@ export const ProfesoresPage = () => {
   );
 
   return (
-    <div>
+    <div className='min-h-screen'>
       {/* ProfesoresPage
       <pre>{JSON.stringify(data, null, 2)}</pre> */}
       {data && <TeacherList teachers={data}/>}

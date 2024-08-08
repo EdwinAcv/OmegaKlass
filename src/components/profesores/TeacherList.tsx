@@ -37,7 +37,7 @@ export const TeacherList: React.FC<TeacherListProps> = ({ teachers }) => {
   };
 
   return (
-    <div className='min-h-screen'>
+    <div >
       <div className="flex flex-col items-center pt-20">
         <input
           type="text"

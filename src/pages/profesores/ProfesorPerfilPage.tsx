@@ -3,6 +3,7 @@ import useFetchJson from '../../hooks/get-data';
 import { Cursos } from '../../interfaces/cursos';
 import { Maestro } from '../../interfaces/maestros';
 import { useNavigate, useParams } from 'react-router-dom';
+import { TutoriasCalendar } from '../../components/profesores/TutoriasCalendar';
 
 export const ProfesorPerfilPage = () => {
     const [activeTab, setActiveTab] = useState('cursos');
@@ -14,7 +15,7 @@ export const ProfesorPerfilPage = () => {
     const { data: maestros } = useFetchJson<Maestro[]>('../../src/data/maestros.json');
 
     if (!cursos || !maestros) {
-        return <div>Loading...</div>;
+        return <div className='min-h-screen flex flex-col items-center p-6 '>Loading...</div>;
     }
 
     const maestroId = Number(id);
@@ -22,7 +23,8 @@ export const ProfesorPerfilPage = () => {
     const cursosFiltrados = cursos.filter((curso) => curso.maestro_id === maestroId);
 
     if (!maestro) {
-        return <div>Maestro no encontrado</div>;
+        return <div  className='min-h-screen flex flex-col items-center p-6'
+        >Maestro no encontrado</div>;
     }
 
 
@@ -54,6 +56,13 @@ export const ProfesorPerfilPage = () => {
 
                 <div className="w-full max-w-md">
                     <div className="flex border-b">
+                    <button
+                            className={`flex-1 py-2 text-center ${activeTab === 'info' ? 'border-b-2 border-blue-500 text-blue-500' : 'text-gray-500'}`}
+                            onClick={() => setActiveTab('info')}
+                        >
+                            Info
+                        </button>
+
                         <button
                             className={`flex-1 py-2 text-center ${activeTab === 'cursos' ? 'border-b-2 border-blue-500 text-blue-500' : 'text-gray-500'}`}
                             onClick={() => setActiveTab('cursos')}
@@ -70,7 +79,7 @@ export const ProfesorPerfilPage = () => {
 
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-2">
                     {activeTab === 'cursos' && (
                         <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
                             {cursosFiltrados.map((course) => (
@@ -96,8 +105,17 @@ export const ProfesorPerfilPage = () => {
                     )}
                     {activeTab === 'tutorias' && (
                         <div>
-                            <h2 className="text-xl font-bold mb-2">Tutorías</h2>
-                            <p>Contenido de las tutorías.</p>
+                            {/* <h2 className="text-xl font-bold mb-2">Tutorías</h2> */}
+                            {/* <p>Contenido de las tutorías.</p> */}
+
+                            <TutoriasCalendar id={maestroId} />
+                        </div>
+                    )}
+                    {activeTab === 'info' && (
+                        <div>
+                            <h2 className="text-xl font-bold mb-2">Info</h2>
+                            <p>Contenido del maestro.</p>
+
                         </div>
                     )}
                 </div>
