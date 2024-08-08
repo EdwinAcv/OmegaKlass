@@ -15,7 +15,6 @@ interface ModalTutoriasProps {
 export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutoriasProps) => {
 
     const handleModal = () => {
-        console.log("Modal closed");
         setOpen(false);
     }
 
@@ -44,10 +43,9 @@ export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutori
                 ...hora[0],
                 descripcion: description,
                 disponible: 0
-
+s
               }
 
-              console.log(maestro, 'mea')
               Object.assign(fecha, newObject);
 
               handleModal();
@@ -56,6 +54,11 @@ export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutori
         })
         .catch(error => console.error('Error:', error));
     };
+
+    const handleJitsi = () => {
+      const conferenceName = 'tutoria?maestro=' + `${maestroId}?` + `hora=${hora[0].id_hora}`; 
+      window.open(`https://meet.jit.si/${conferenceName}`, '_blank');
+  }
 
 
 
@@ -87,7 +90,8 @@ export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutori
           </div>
         </div>
         <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-          <button type="button" onClick={() => handleSave()} className="inline-flex w-full justify-center rounded-md bg-green-500  px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 sm:ml-3 sm:w-auto">Guardar</button>
+        {hora[0].disponible === 0 ? <button type="button" onClick={() => handleJitsi()} className="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 sm:ml-3 sm:w-auto">Ver Conferencia</button>: null}
+          <button type="button" onClick={() => handleSave()} className="inline-flex w-full justify-center rounded-md bg-green-500  px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 sm:ml-3 sm:w-auto">{hora[0].disponible === 0 ? 'Actualizar' :'Guardar'}</button>
           <button type="button" onClick={() => handleModal()} className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto">Cancelar</button>
         </div>
       </div>

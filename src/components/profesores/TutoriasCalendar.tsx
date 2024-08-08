@@ -46,7 +46,6 @@ export const TutoriasCalendar = ({ id }: TutoriasCalendarProps) => {
       }
     } else {
       setNoData(true);
-      console.log("No schedule data available");
     }
   }, [schedule, id]);
 
