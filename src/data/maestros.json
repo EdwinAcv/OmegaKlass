@@ -8,7 +8,11 @@
         "sub_abilidades": ["Matemáticas Básicas", "Física para Principiantes", "Álgebra Avanzada", "Física Avanzada"],
         "descipcion": "Especializado en el campo de las matemáticas y física, y llevo más de una década ayudando a los estudiantes a dominar estas materias. Mi enfoque se centra en hacer que los conceptos complejos sean accesibles y comprensibles para todos.",
         "tutorias": true,
-        "imagen": "../../../assets/homepage/profesores/1.jpg"
+        "imagen": "../../../assets/homepage/profesores/1.jpg",
+        "imagenProfesor": "src/assets/profesores/1.jpg",
+        "imagenPerfil":  "../../src/assets/profesores/1.jpg"
+        
+
     },
     {
         "id": 2,
@@ -19,7 +23,9 @@
         "sub_abilidades": ["Diseño con Adobe Photoshop", "Diseño de Logotipos", "Diseño Gráfico con Illustrator"],
         "descipcion": "Soy experta en diseño gráfico con cinco años de experiencia. Mi pasión es guiar a los estudiantes para que descubran y desarrollen su propio estilo artístico utilizando las herramientas más modernas del diseño digital.",
         "tutorias": true,
-        "imagen": "../../../assets/homepage/profesores/2.jpeg"
+        "imagen": "../../../assets/homepage/profesores/2.jpeg",
+        "imagenProfesor": "src/assets/profesores/2.jpeg",
+        "imagenPerfil":  "../../src/assets/profesores/2.jpeg"
     },
     {
         "id": 3,
@@ -43,7 +49,9 @@
         "sub_abilidades": ["Programación en Python", "Estructuras de Datos", "Bases de Datos SQL", "Desarrollo Web con HTML y CSS", "Programación Orientada a Objetos con Java"],
         "descipcion": "Con seis años de experiencia, enseño programación, estructura de datos y bases de datos. Me apasiona transmitir conocimientos técnicos y prácticos que preparen a los estudiantes para el mundo profesional en el ámbito de la informática.",
         "tutorias": true,
-        "imagen": ""
+        "imagen": "../../../assets/homepage/profesores/4.jpg",
+        "imagenProfesor": "src/assets/profesores/4.jpg",
+        "imagenPerfil":  "../../src/assets/profesores/4.jpg"
     },
     {
         "id": 5,
@@ -54,6 +62,8 @@
         "sub_abilidades": ["Inglés para Principiantes", "Conversación en Inglés", "Francés Básico", "Francés Intermedio"],
         "descipcion": "Soy maestra de inglés y francés, con siete años dedicados a la enseñanza de idiomas. Mi objetivo es facilitar el aprendizaje de nuevas lenguas mediante métodos interactivos y culturales, para que mis estudiantes se sientan cómodos y confiados al comunicarse en otro idioma.",
         "tutorias": true,
-        "imagen": ""
+        "imagen": "../../../assets/homepage/profesores/5.jpg",
+        "imagenProfesor": "src/assets/profesores/5.jpg",
+        "imagenPerfil":  "../../src/assets/profesores/5.jpg"
     }
 ]
