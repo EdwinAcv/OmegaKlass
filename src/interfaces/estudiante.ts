@@ -2,8 +2,9 @@ export interface Student {
     id:          number;
     nombre:      string;
     apellido:    string;
-    edad:        number;
+    correo:    string;
     cursos?:      number[];
+    progreso: number[];
     habilidades?: string[];
     descripcion?: string;
     imagen?:      string;

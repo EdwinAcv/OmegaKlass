@@ -7,11 +7,12 @@ import CourseCard from "../cursos/curso-card/Curso-card";
 
 const studentInfo = {
   id: 1,
-  nombre: "Georges",
-  apellido: "Washington",
-  edad: 20,
+  nombre: "Felix",
+  apellido: "Artiles",
+  correo: 'felixartiles97@gmail.com',
   cursos: [1, 2, 3, 4],
   progreso: [10, 0, 30, 40],
+  imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-rOOnMk-Uukdm6uI-h3W4rkIErLTQBqJ_w&s',
   habilidades: [
     "Matemáticas Básicas",
     "Física para Principiantes",

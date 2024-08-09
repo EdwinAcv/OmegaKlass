@@ -22,7 +22,7 @@ const Sidebar: React.FC<SidebarProps> = ({ stundent }) => {
         <h1 className="text-xl font-bold">
           {stundent.nombre} {stundent.apellido}
         </h1>
-        <p className="text-gray-700">{stundent.edad}</p>
+        <p className="text-gray-700">{stundent.correo}</p>
        
       </div>
       <hr className="my-6 border-t border-gray-300" />
