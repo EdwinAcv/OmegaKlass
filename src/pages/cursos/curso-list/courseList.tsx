@@ -13,12 +13,7 @@ const CourseList: React.FC<CourseListProps> = ({ courses }) => {
       {courses.map((course, index) => (
         <Grid item xs={12} sm={6} md={2} key={index}>
           <CourseCard
-            titulo={course.titulo}
-            descripcion={course.descripcion}
-            imageUrl={course.imageUrl}
-            id={course.id}
-            precio={course.precio}
-            maestro_id={course.maestro_id}
+            curso={course}
           />
         </Grid>
       ))}

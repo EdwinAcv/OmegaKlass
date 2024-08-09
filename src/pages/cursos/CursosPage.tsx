@@ -8,6 +8,14 @@ export const CursosPage = () => {
   const { data: cursos } = useFetchJson<Cursos[]>("src/data/cursos.json");
   const [filter, setFilter] = useState("");
 
+  if(!cursos){
+    return (
+      <div className="min-h-screen flex flex-col items-center p-6 ">
+        Loading...
+      </div>
+    );
+  }
+
   const filteredCourses =
     cursos?.filter((curso) => {
       const searchText = filter.toLowerCase();

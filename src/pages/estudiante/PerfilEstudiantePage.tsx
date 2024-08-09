@@ -38,8 +38,8 @@ export const PerfilEstudiantePage = () => {
     studentInfo.cursos.includes(curso.id)
   );
  
-  const goToCourse = () => {
-    navigator(`/cursos/estudiante/${studentInfo.id}`);
+  const goToCourse = (curso_id:number) => {
+    navigator(`/estudiante/curso/?student=${studentInfo.id}&course=${curso_id}`);
   };
   return (
     <PageTransition>
@@ -63,7 +63,7 @@ export const PerfilEstudiantePage = () => {
                       <p>No tienes cursos asignados</p>
                     ) : (
                       cursosFiltrados.map((course,index) => (
-                        <CourseCard curso={course} progreso={studentInfo.progreso[index]} goToDetail={goToCourse} />
+                        <CourseCard curso={course} progreso={studentInfo.progreso[index]} goToDetail={() => goToCourse(course.id)} />
                       ))
                     )}
                   </div>

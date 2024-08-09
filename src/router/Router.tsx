@@ -36,7 +36,7 @@ export const Router = () => {
               <Route path="/cursos" element={<PageTransition><CursosPage /></PageTransition>} />
               <Route path="/cursos/:id" element={<PageTransition><DetalleCursoPage /></PageTransition>} />
               <Route path="/perfil_estudiante" element={<PageTransition><PerfilEstudiantePage/></PageTransition>} />
-              <Route path="/estudiante/curso/:id" element={<CursoAsignado/>} />
+              <Route path="/estudiante/curso" element={<CursoAsignado/>} />
               {/* <Route path="/estudiante_cursos" element={<CursosPage />} /> */}
 
               {/*
