@@ -93,7 +93,7 @@ const CourseDetailPage: React.FC<{ course: Cursos }> = ({ course }) => {
           <Typography variant="h5" gutterBottom>
             Videos del Curso
           </Typography>
-          <CourseVideos videos={[]} />
+          <CourseVideos videos={course.videos} />
         </CardContent>
       </Card>
     </Container>
