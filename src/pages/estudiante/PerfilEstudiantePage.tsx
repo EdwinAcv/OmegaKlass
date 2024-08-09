@@ -1,58 +1,78 @@
-import { Box, Container, Typography, Paper, Grid } from "@mui/material";
-import Sidebar, { CursosAsignados } from "./sidebar/sidebar";
 import PageTransition from "../../components/pageTransition";
+import { useNavigate } from "react-router-dom";
+import Sidebar from "./sidebar/sidebar";
+import useFetchJson from "../../hooks/get-data";
+import { Cursos } from "../../interfaces/cursos";
+import CourseCard from "../cursos/curso-card/Curso-card";
 
 const studentInfo = {
-  name: "Juan Pérez",
-  email: "juan.perez@example.com",
-  courses: [
-    { id: 1, title: "Matemáticas Básicas" },
-    { id: 2, title: "Física para Principiantes" },
-    { id: 3, title: "Programación en Python" },
+  id: 1,
+  nombre: "Georges",
+  apellido: "Washington",
+  edad: 20,
+  cursos: [1, 2, 3, 4],
+  progreso: [10, 0, 30, 40],
+  habilidades: [
+    "Matemáticas Básicas",
+    "Física para Principiantes",
+    "Álgebra Avanzada",
+    "Programcacion",
   ],
+  descripcion:
+    "Estudiante de ingenieria en sistemas, con 2 años de experiencia en programacion y 1 año en matematicas y fisica.",
 };
 
 export const PerfilEstudiantePage = () => {
+  const navigator = useNavigate();
+  const { data: cursos } = useFetchJson<Cursos[]>("../src/data/cursos.json");
+
+  if (!cursos) {
     return (
-      <PageTransition>
-      <Container sx={{ marginTop: 4, marginBottom:4 }}>
-        <Grid container spacing={2}>
-          {/* Columna para el Sidebar y CursosAsignados */}
-          <Grid item xs={12} md={3}>
-            <Grid container direction="column" spacing={2}>
-              <Grid item>
-                <Sidebar name={studentInfo.name} email={studentInfo.email} />
-              </Grid>
-              <Grid item>
-                <CursosAsignados courses={studentInfo.courses} />
-              </Grid>
-            </Grid>
-          </Grid>
-          {/* Columna para el contenido principal */}
-          <Grid item xs={12} md={9}>
-            <Paper elevation={3} sx={{ padding: 2 }}>
-              <Typography variant="h4" gutterBottom>
-                Bienvenido, {studentInfo.name}
-              </Typography>
-              <Typography variant="body1">
-                Aquí puedes encontrar toda la información relevante sobre tus cursos y actividades.
-              </Typography>
-              <Box sx={{ marginTop: 4 }}>
-                <Typography variant="h5" gutterBottom>
-                  Actividades Recientes
-                </Typography>
-                <Typography variant="body1">
-                  {/* Aquí puedes agregar más contenido o componentes relacionados con las actividades recientes */}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur, tenetur possimus dolore doloremque quidem officiis nemo velit ducimus inventore. Omnis earum consequatur rem nam perferendis magnam dolorem ab ullam.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur, tenetur possimus dolore doloremque quidem officiis nemo velit ducimus inventore. Omnis earum consequatur rem nam perferendis magnam dolorem ab ullam.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur, tenetur possimus dolore doloremque quidem officiis nemo velit ducimus inventore. Omnis earum consequatur rem nam perferendis magnam dolorem ab ullam.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur, tenetur possimus dolore doloremque quidem officiis nemo velit ducimus inventore. Omnis earum consequatur rem nam perferendis magnam dolorem ab ullam.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur, tenetur possimus dolore doloremque quidem officiis nemo velit ducimus inventore. Omnis earum consequatur rem nam perferendis magnam dolorem ab ullam.
-                </Typography>
-              </Box>
-            </Paper>
-          </Grid>
-        </Grid>
-      </Container></PageTransition>
+      <div className="min-h-screen flex flex-col items-center p-6 ">
+        Loading...
+      </div>
+    );
+  }
+
+  const cursosFiltrados = cursos.filter((curso) =>
+    studentInfo.cursos.includes(curso.id)
+  );
+ 
+  const goToCourse = () => {
+    navigator(`/cursos/estudiante/${studentInfo.id}`);
+  };
+  return (
+    <PageTransition>
+      <div className="min-h-screen bg-gray-100">
+        <div className="flex flex-col items-center p-6">
+          <div className="container mx-auto py-8">
+            <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
+              <div className="col-span-4 sm:col-span-3">
+                <Sidebar stundent={studentInfo} />
+              </div>
+              <div className="col-span-4 sm:col-span-9">
+                <div className="bg-white shadow rounded-lg p-6">
+                  <h2 className="text-xl font-bold mb-4">Sobre mi</h2>
+                  <p className="text-gray-700">{studentInfo.descripcion}</p>
+                </div>
+
+                <div className="mt-2">
+                  <h1 className="text-4xl">Mis cursos</h1>
+                  <div className="mt-2 md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+                    {cursosFiltrados.length === 0 ? (
+                      <p>No tienes cursos asignados</p>
+                    ) : (
+                      cursosFiltrados.map((course,index) => (
+                        <CourseCard curso={course} progreso={studentInfo.progreso[index]} goToDetail={goToCourse} />
+                      ))
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </PageTransition>
   );
 };

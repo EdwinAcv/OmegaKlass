@@ -1,0 +1,24 @@
+[
+    {
+        "studentId": 1,
+        "courses": [
+          {
+            "courseId": 1,
+            "progress": 75
+          },
+          {
+            "courseId": 2,
+            "progress": 40
+          },
+          {
+            "courseId": 3,
+            "progress": 90
+          },
+          {
+            "courseId": 4,
+            "progress": 0
+          }
+        ]
+      }
+      
+]

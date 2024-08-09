@@ -40,12 +40,11 @@ export const ModalTutorias = ({setOpen, hora, currentDay, maestroId}:ModalTutori
     
 //             if (fecha) {
 
-//               const newObject = {
-//                 ...hora[0],
-//                 descripcion: description,
-//                 disponible: 0
-// s
-//               }
+              const newObject = {
+                ...hora[0],
+                descripcion: description,
+                disponible: 0
+              }
 
 //               Object.assign(fecha, newObject);
 

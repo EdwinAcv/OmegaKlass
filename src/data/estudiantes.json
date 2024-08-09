@@ -1,9 +1,10 @@
 [
     {
         "id": 1,
-        "nombre": "Georges washinton",
+        "nombre": "Georges",
+        "apellido": "Washington",
         "edad": 20,
-        "curosos": [1,2,3,4],
+        "cursos": [1,2,3,4],
         "habilidades": ["Matemáticas Básicas", "Física para Principiantes", "Álgebra Avanzada", "Programcacion"],
         "descripcion": "Estudiante de ingenieria en sistemas, con 2 años de experiencia en programacion y 1 año en matematicas y fisica."
     }
