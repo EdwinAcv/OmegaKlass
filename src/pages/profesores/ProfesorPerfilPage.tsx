@@ -4,6 +4,7 @@ import { Cursos } from '../../interfaces/cursos';
 import { Maestro } from '../../interfaces/maestros';
 import { useNavigate, useParams } from 'react-router-dom';
 import { TutoriasCalendar } from '../../components/profesores/TutoriasCalendar';
+import { CircularSpinner } from '../../components/CircularSpinner';
 
 export const ProfesorPerfilPage = () => {
     const [activeTab, setActiveTab] = useState('cursos');
@@ -15,7 +16,7 @@ export const ProfesorPerfilPage = () => {
     const { data: maestros } = useFetchJson<Maestro[]>('../../src/data/maestros.json');
 
     if (!cursos || !maestros) {
-        return <div className='min-h-screen flex flex-col items-center p-6 '>Loading...</div>;
+        return <div className='min-h-screen flex flex-col items-center p-6  justify-center'><CircularSpinner/></div>;
     }
 
     const maestroId = Number(id);
@@ -24,7 +25,7 @@ export const ProfesorPerfilPage = () => {
 
 
     if (!maestro) {
-        return <div  className='min-h-screen flex flex-col items-center p-6'
+        return <div  className='min-h-screen flex flex-col items-center p-6 bg-red-500'
         >Maestro no encontrado</div>;
     }
 
